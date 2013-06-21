@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
+
+<!--L
+  Copyright HealthCare IT, Inc.
+
+  Distributed under the OSI-approved BSD 3-Clause License.
+  See http://ncip.github.com/edct-common/LICENSE.txt for details.
+L-->
+
 <project name="caCureCommon" default="all">
 
     <target name="set-properties" unless="lib.dir">
