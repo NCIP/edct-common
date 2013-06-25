@@ -1,2 +1,0 @@
-notification=mmahishi@vertizone.com
-data=two.xml;three.xml;one_more.xml;test.xml

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<owner>
+	<dataset>
+		<question name="DiagnosisMethod">
+			<answer>
+				<text>TURP (Transurethral Resection of the prostate) One</text>
+				<value>1</value>
+			</answer>
+		</question>
+		<question name="DiagnosisMethod">
+			<answer>
+				<text>TURP (Transurethral Resection of the prostate) Two</text>
+				<value>2</value>
+			</answer>
+		</question>
+	</dataset>
+</owner>

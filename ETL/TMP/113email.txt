@@ -1,0 +1,22 @@
+Input File: four.xml---------------------------------------------------------------------------
+RESULT: Data migration was partially completed.
+Only a portion of the data was migrated successfully.
+
+Data migration could not be completely processed due to:
+-Validation Errors
+
+ERROR: XSD validation has failed:
+Error Code: XSD_INVALID
+
+
+
+Input File: five.xml---------------------------------------------------------------------------
+RESULT: Data migration was partially completed.
+Only a portion of the data was migrated successfully.
+
+Data migration could not be completely processed due to:
+-Validation Errors
+
+ERROR: Could not find input file five.xml
+
+
