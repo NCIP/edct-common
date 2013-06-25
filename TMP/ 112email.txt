@@ -1,0 +1,35 @@
+Input File: two.xml---------------------------------------------------------------------------
+RESULT: Data migration was partially completed.
+Only a portion of the data was migrated successfully.
+
+Data migration could not be completely processed due to:
+-Validation Errors
+
+ERROR: Could not find input file two.xml
+
+
+Input File: form_data_20120720_123.xml---------------------------------------------------------------------------
+RESULT: Data migration was partially completed.
+Only a portion of the data was migrated successfully.
+
+Data migration could not be completely processed due to:
+-Validation Errors
+
+ERROR: Data validation has failed:
+Error Code: XML_DATA_INVALID
+
+
+ERROR: Invalid value, expected date in DDDD-MM-YY format
+Question: DietDate
+Answer Value: 08/07/2013
+
+Input File: three.xmll---------------------------------------------------------------------------
+RESULT: Data migration was partially completed.
+Only a portion of the data was migrated successfully.
+
+Data migration could not be completely processed due to:
+-Validation Errors
+
+ERROR: Could not find input file three.xmll
+
+

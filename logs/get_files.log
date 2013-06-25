@@ -1,0 +1,1331 @@
+2012/08/31 14:45:09 - Kitchen - Logging is at level : Detailed logging
+2012/08/31 14:45:09 - Kitchen - Start of run.
+2012/08/31 14:45:09 - GetFiles - Start of job execution
+2012/08/31 14:45:09 - GetFiles - exec(0, 0, START.0)
+2012/08/31 14:45:09 - START - Starting job entry
+2012/08/31 14:45:09 - GetFiles - Starting entry [PropsSet?]
+2012/08/31 14:45:09 - GetFiles - exec(1, 0, PropsSet?.0)
+2012/08/31 14:45:09 - PropsSet? - Starting job entry
+2012/08/31 14:45:09 - PropsSet? - Checking variable [${PROPERTIES}] ...
+2012/08/31 14:45:09 - PropsSet? - Value to evaluate is /home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties
+2012/08/31 14:45:09 - GetFiles - Starting entry [Checks if files exist]
+2012/08/31 14:45:09 - GetFiles - exec(2, 0, Checks if files exist.0)
+2012/08/31 14:45:09 - PropsSet? - Starting job entry
+2012/08/31 14:45:09 - PropsSet? - File [/home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties] exists.
+2012/08/31 14:45:09 - GetFiles - Starting entry [LoadProperties]
+2012/08/31 14:45:09 - GetFiles - exec(3, 0, LoadProperties.0)
+2012/08/31 14:45:09 - LoadProperties - Starting job entry
+2012/08/31 14:45:09 - LoadProperties - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/../Common/LoadProperties.ktr]
+2012/08/31 14:45:09 - LoadProperties - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/../Common/LoadProperties.ktr]
+2012/08/31 14:45:09 - LoadProperties - Starting transformation...(file=${Internal.Job.Filename.Directory}/../Common/LoadProperties.ktr, name=LoadProperties, repinfo=null)
+2012/08/31 14:45:09 - LoadProperties - Transformation is pre-loaded.
+2012/08/31 14:45:09 - LoadProperties - Dispatching started for transformation [LoadProperties]
+2012/08/31 14:45:09 - LoadProperties - Nr of arguments detected:0 
+2012/08/31 14:45:09 - LoadProperties - This is not a replay transformation
+2012/08/31 14:45:09 - LoadProperties - I found 2 different steps to launch.
+2012/08/31 14:45:09 - LoadProperties - Allocating rowsets...
+2012/08/31 14:45:09 - LoadProperties -  Allocating rowsets for step 0 --> Property Input
+2012/08/31 14:45:09 - LoadProperties -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:09 - LoadProperties - Transformation allocated new rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:09 - LoadProperties -  Allocated 1 rowsets for step 0 --> Property Input  
+2012/08/31 14:45:09 - LoadProperties -  Allocating rowsets for step 1 --> Set Variables
+2012/08/31 14:45:09 - LoadProperties -  Allocated 1 rowsets for step 1 --> Set Variables  
+2012/08/31 14:45:09 - LoadProperties - Allocating Steps & StepData...
+2012/08/31 14:45:09 - LoadProperties -  Transformation is about to allocate step [Property Input] of type [PropertyInput]
+2012/08/31 14:45:09 - Property Input.0 - distribution activated
+2012/08/31 14:45:09 - Property Input.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:09 - Property Input.0 - Step info: nrinput=0 nroutput=1
+2012/08/31 14:45:09 - Property Input.0 - output rel. is  1:1
+2012/08/31 14:45:09 - Property Input.0 - Found output rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:09 - Property Input.0 - Finished dispatching
+2012/08/31 14:45:09 - LoadProperties -  Transformation has allocated a new step: [Property Input].0
+2012/08/31 14:45:09 - LoadProperties -  Transformation is about to allocate step [Set Variables] of type [ScriptValueMod]
+2012/08/31 14:45:09 - Set Variables.0 - distribution activated
+2012/08/31 14:45:09 - Set Variables.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:09 - Set Variables.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:10 - Set Variables.0 - Got previous step from [Set Variables] #0 --> Property Input
+2012/08/31 14:45:10 - Set Variables.0 - input rel is 1:1
+2012/08/31 14:45:10 - Set Variables.0 - Found input rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:10 - Set Variables.0 - Finished dispatching
+2012/08/31 14:45:10 - LoadProperties -  Transformation has allocated a new step: [Set Variables].0
+2012/08/31 14:45:10 - LoadProperties - This transformation can be replayed with replay date: 2012/08/31 14:45:10
+2012/08/31 14:45:10 - LoadProperties - Initialising 2 steps...
+2012/08/31 14:45:10 - Property Input.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Set Variables.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - LoadProperties - Step [Property Input.0] initialized flawlessly.
+2012/08/31 14:45:10 - LoadProperties - Step [Set Variables.0] initialized flawlessly.
+2012/08/31 14:45:10 - LoadProperties - Transformation has allocated 2 threads and 1 rowsets.
+2012/08/31 14:45:10 - Property Input.0 - Starting to run...
+2012/08/31 14:45:10 - Set Variables.0 - Starting to run...
+2012/08/31 14:45:10 - Property Input.0 - Opening file: file:///home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties
+2012/08/31 14:45:10 - Property Input.0 - Finished opening file file:///home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties
+2012/08/31 14:45:10 - Property Input.0 - We found 33 key(s) in file [/home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties]
+2012/08/31 14:45:10 - Set Variables.0 - Value #0 -  [key] is used in the script.
+2012/08/31 14:45:10 - Set Variables.0 - Value #1 -  [value] is used in the script.
+2012/08/31 14:45:10 - Set Variables.0 - This script is using 2 values from the input stream(s)
+2012/08/31 14:45:10 - Property Input.0 - Finished processing
+2012/08/31 14:45:10 - Property Input.0 - Finished processing (I=33, O=0, R=0, W=33, U=0, E=0)
+2012/08/31 14:45:10 - Set Variables.0 - Optimization level not specified.  Using default of 9.
+2012/08/31 14:45:10 - Set Variables.0 - No starting Script found!
+2012/08/31 14:45:10 - Set Variables.0 - No tran_Status found. Transformation status checking not available.
+2012/08/31 14:45:10 - Set Variables.0 - No end Script found!
+2012/08/31 14:45:10 - Set Variables.0 - Finished processing (I=0, O=0, R=33, W=33, U=0, E=0)
+2012/08/31 14:45:10 - GetFiles - Starting entry [Set FB]
+2012/08/31 14:45:10 - GetFiles - exec(4, 0, Set FB.0)
+2012/08/31 14:45:10 - PropsSet? - Starting job entry
+2012/08/31 14:45:10 - PropsSet? - Set variable INPUT_FOLDER to value [${IN_FOLDER}]
+2012/08/31 14:45:10 - PropsSet? - Set variable INPUT_FILE to value [${IN_FILE}]
+2012/08/31 14:45:10 - GetFiles - Starting entry [CheckFolder]
+2012/08/31 14:45:10 - GetFiles - exec(5, 0, CheckFolder.0)
+2012/08/31 14:45:10 - PropsSet? - Starting job entry
+2012/08/31 14:45:10 - PropsSet? - We found file : file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt
+2012/08/31 14:45:10 - PropsSet? - We found file : file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt
+2012/08/31 14:45:10 - PropsSet? - Total files
+2012/08/31 14:45:10 - GetFiles - Starting entry [GetPropertyFiles]
+2012/08/31 14:45:10 - GetFiles - exec(6, 0, GetPropertyFiles.0)
+2012/08/31 14:45:10 - GetPropertyFiles - Starting job entry
+2012/08/31 14:45:10 - GetPropertyFiles - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/GetPropertyFiles.ktr]
+2012/08/31 14:45:10 - GetPropertyFiles - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/GetPropertyFiles.ktr]
+2012/08/31 14:45:10 - GetPropertyFiles - Starting transformation...(file=${Internal.Job.Filename.Directory}/GetPropertyFiles.ktr, name=GetPropertyFiles, repinfo=null)
+2012/08/31 14:45:10 - GetPropertyFiles - Transformation is pre-loaded.
+2012/08/31 14:45:10 - GetPropertyFiles - Dispatching started for transformation [GetPropertyFiles]
+2012/08/31 14:45:10 - GetPropertyFiles - Nr of arguments detected:0 
+2012/08/31 14:45:10 - GetPropertyFiles - This is not a replay transformation
+2012/08/31 14:45:10 - GetPropertyFiles - I found 3 different steps to launch.
+2012/08/31 14:45:10 - GetPropertyFiles - Allocating rowsets...
+2012/08/31 14:45:10 - GetPropertyFiles -  Allocating rowsets for step 0 --> Select values
+2012/08/31 14:45:10 - GetPropertyFiles -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - GetPropertyFiles - Transformation allocated new rowset [Select values.0 - Copy rows to result.0]
+2012/08/31 14:45:10 - GetPropertyFiles -  Allocated 1 rowsets for step 0 --> Select values  
+2012/08/31 14:45:10 - GetPropertyFiles -  Allocating rowsets for step 1 --> Copy rows to result
+2012/08/31 14:45:10 - GetPropertyFiles -  Allocated 1 rowsets for step 1 --> Copy rows to result  
+2012/08/31 14:45:10 - GetPropertyFiles -  Allocating rowsets for step 2 --> Get File Names
+2012/08/31 14:45:10 - GetPropertyFiles -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - GetPropertyFiles - Transformation allocated new rowset [Get File Names.0 - Select values.0]
+2012/08/31 14:45:10 - GetPropertyFiles -  Allocated 2 rowsets for step 2 --> Get File Names  
+2012/08/31 14:45:10 - GetPropertyFiles - Allocating Steps & StepData...
+2012/08/31 14:45:10 - GetPropertyFiles -  Transformation is about to allocate step [Select values] of type [SelectValues]
+2012/08/31 14:45:10 - Select values.0 - distribution activated
+2012/08/31 14:45:10 - Select values.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Select values.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:10 - Select values.0 - Got previous step from [Select values] #0 --> Get File Names
+2012/08/31 14:45:10 - Select values.0 - input rel is 1:1
+2012/08/31 14:45:10 - Select values.0 - Found input rowset [Get File Names.0 - Select values.0]
+2012/08/31 14:45:10 - Select values.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Select values.0 - Found output rowset [Select values.0 - Copy rows to result.0]
+2012/08/31 14:45:10 - Select values.0 - Finished dispatching
+2012/08/31 14:45:10 - GetPropertyFiles -  Transformation has allocated a new step: [Select values].0
+2012/08/31 14:45:10 - GetPropertyFiles -  Transformation is about to allocate step [Copy rows to result] of type [RowsToResult]
+2012/08/31 14:45:10 - Copy rows to result.0 - distribution activated
+2012/08/31 14:45:10 - Copy rows to result.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Copy rows to result.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:10 - Copy rows to result.0 - Got previous step from [Copy rows to result] #0 --> Select values
+2012/08/31 14:45:10 - Copy rows to result.0 - input rel is 1:1
+2012/08/31 14:45:10 - Copy rows to result.0 - Found input rowset [Select values.0 - Copy rows to result.0]
+2012/08/31 14:45:10 - Copy rows to result.0 - Finished dispatching
+2012/08/31 14:45:10 - GetPropertyFiles -  Transformation has allocated a new step: [Copy rows to result].0
+2012/08/31 14:45:10 - GetPropertyFiles -  Transformation is about to allocate step [Get File Names] of type [GetFileNames]
+2012/08/31 14:45:10 - Get File Names.0 - distribution activated
+2012/08/31 14:45:10 - Get File Names.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Get File Names.0 - Step info: nrinput=0 nroutput=1
+2012/08/31 14:45:10 - Get File Names.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Get File Names.0 - Found output rowset [Get File Names.0 - Select values.0]
+2012/08/31 14:45:10 - Get File Names.0 - Finished dispatching
+2012/08/31 14:45:10 - GetPropertyFiles -  Transformation has allocated a new step: [Get File Names].0
+2012/08/31 14:45:10 - GetPropertyFiles - This transformation can be replayed with replay date: 2012/08/31 14:45:10
+2012/08/31 14:45:10 - GetPropertyFiles - Initialising 3 steps...
+2012/08/31 14:45:10 - Select values.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Get File Names.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Copy rows to result.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - GetPropertyFiles - Step [Select values.0] initialized flawlessly.
+2012/08/31 14:45:10 - GetPropertyFiles - Step [Copy rows to result.0] initialized flawlessly.
+2012/08/31 14:45:10 - GetPropertyFiles - Step [Get File Names.0] initialized flawlessly.
+2012/08/31 14:45:10 - Select values.0 - Starting to run...
+2012/08/31 14:45:10 - Copy rows to result.0 - Starting to run...
+2012/08/31 14:45:10 - GetPropertyFiles - Transformation has allocated 3 threads and 2 rowsets.
+2012/08/31 14:45:10 - Get File Names.0 - Starting to run...
+2012/08/31 14:45:10 - Get File Names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2012/08/31 14:45:10 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:10 - Copy rows to result.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:10 - GetFiles - Starting entry [ProcessPropertyFile]
+2012/08/31 14:45:10 - GetFiles - exec(7, 0, ProcessPropertyFile.0)
+2012/08/31 14:45:10 - ProcessPropertyFile - Starting job entry
+2012/08/31 14:45:10 - ProcessPropertyFile - Loading job from XML file : [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/ProcessPropertyFile.kjb]
+2012/08/31 14:45:10 - ProcessPropertyFile - exec(8, 0, START.0)
+2012/08/31 14:45:10 - START - Starting job entry
+2012/08/31 14:45:10 - ProcessPropertyFile - Starting entry [SetVars]
+2012/08/31 14:45:10 - ProcessPropertyFile - exec(9, 0, SetVars.0)
+2012/08/31 14:45:10 - SetVars - Starting job entry
+2012/08/31 14:45:10 - SetVars - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetVars.ktr]
+2012/08/31 14:45:10 - SetVars - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetVars.ktr]
+2012/08/31 14:45:10 - SetVars - Starting transformation...(file=${Internal.Job.Filename.Directory}/SetVars.ktr, name=SetVars, repinfo=null)
+2012/08/31 14:45:10 - SetVars - Transformation is pre-loaded.
+2012/08/31 14:45:10 - SetVars - Dispatching started for transformation [SetVars]
+2012/08/31 14:45:10 - SetVars - Nr of arguments detected:0 
+2012/08/31 14:45:10 - SetVars - This is not a replay transformation
+2012/08/31 14:45:10 - SetVars - I found 7 different steps to launch.
+2012/08/31 14:45:10 - SetVars - Allocating rowsets...
+2012/08/31 14:45:10 - SetVars -  Allocating rowsets for step 0 --> Property Input
+2012/08/31 14:45:10 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - SetVars - Transformation allocated new rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:10 - SetVars -  Allocated 1 rowsets for step 0 --> Property Input  
+2012/08/31 14:45:10 - SetVars -  Allocating rowsets for step 1 --> Set Variables
+2012/08/31 14:45:10 - SetVars -  Allocated 1 rowsets for step 1 --> Set Variables  
+2012/08/31 14:45:10 - SetVars -  Allocating rowsets for step 2 --> Set Variables 2
+2012/08/31 14:45:10 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - SetVars - Transformation allocated new rowset [Set Variables 2.0 - Property Input.0]
+2012/08/31 14:45:10 - SetVars -  Allocated 2 rowsets for step 2 --> Set Variables 2  
+2012/08/31 14:45:10 - SetVars -  Allocating rowsets for step 3 --> Add constants
+2012/08/31 14:45:10 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - SetVars - Transformation allocated new rowset [Add constants.0 - Set Variables 2.0]
+2012/08/31 14:45:10 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - SetVars - Transformation allocated new rowset [Add constants.0 - Table output.0]
+2012/08/31 14:45:10 - SetVars -  Allocated 4 rowsets for step 3 --> Add constants  
+2012/08/31 14:45:10 - SetVars -  Allocating rowsets for step 4 --> Get rows from result
+2012/08/31 14:45:10 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - SetVars - Transformation allocated new rowset [Get rows from result.0 - Database join.0]
+2012/08/31 14:45:10 - SetVars -  Allocated 5 rowsets for step 4 --> Get rows from result  
+2012/08/31 14:45:10 - SetVars -  Allocating rowsets for step 5 --> Database join
+2012/08/31 14:45:10 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:10 - SetVars - Transformation allocated new rowset [Database join.0 - Add constants.0]
+2012/08/31 14:45:10 - SetVars -  Allocated 6 rowsets for step 5 --> Database join  
+2012/08/31 14:45:10 - SetVars -  Allocating rowsets for step 6 --> Table output
+2012/08/31 14:45:10 - SetVars -  Allocated 6 rowsets for step 6 --> Table output  
+2012/08/31 14:45:10 - SetVars - Allocating Steps & StepData...
+2012/08/31 14:45:10 - SetVars -  Transformation is about to allocate step [Property Input] of type [PropertyInput]
+2012/08/31 14:45:10 - Property Input.0 - distribution activated
+2012/08/31 14:45:10 - Property Input.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Property Input.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:10 - Property Input.0 - Got previous step from [Property Input] #0 --> Set Variables 2
+2012/08/31 14:45:10 - Property Input.0 - input rel is 1:1
+2012/08/31 14:45:10 - Property Input.0 - Found input rowset [Set Variables 2.0 - Property Input.0]
+2012/08/31 14:45:10 - Property Input.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Property Input.0 - Found output rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:10 - Property Input.0 - Finished dispatching
+2012/08/31 14:45:10 - SetVars -  Transformation has allocated a new step: [Property Input].0
+2012/08/31 14:45:10 - SetVars -  Transformation is about to allocate step [Set Variables] of type [ScriptValueMod]
+2012/08/31 14:45:10 - Set Variables.0 - distribution activated
+2012/08/31 14:45:10 - Set Variables.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Set Variables.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:10 - Set Variables.0 - Got previous step from [Set Variables] #0 --> Property Input
+2012/08/31 14:45:10 - Set Variables.0 - input rel is 1:1
+2012/08/31 14:45:10 - Set Variables.0 - Found input rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:10 - Set Variables.0 - Finished dispatching
+2012/08/31 14:45:10 - SetVars -  Transformation has allocated a new step: [Set Variables].0
+2012/08/31 14:45:10 - SetVars -  Transformation is about to allocate step [Set Variables 2] of type [SetVariable]
+2012/08/31 14:45:10 - Set Variables 2.0 - distribution activated
+2012/08/31 14:45:10 - Set Variables 2.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Set Variables 2.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:10 - Set Variables 2.0 - Got previous step from [Set Variables 2] #0 --> Add constants
+2012/08/31 14:45:10 - Set Variables 2.0 - input rel is 1:1
+2012/08/31 14:45:10 - Set Variables 2.0 - Found input rowset [Add constants.0 - Set Variables 2.0]
+2012/08/31 14:45:10 - Set Variables 2.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Set Variables 2.0 - Found output rowset [Set Variables 2.0 - Property Input.0]
+2012/08/31 14:45:10 - Set Variables 2.0 - Finished dispatching
+2012/08/31 14:45:10 - SetVars -  Transformation has allocated a new step: [Set Variables 2].0
+2012/08/31 14:45:10 - SetVars -  Transformation is about to allocate step [Add constants] of type [Constant]
+2012/08/31 14:45:10 - Add constants.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Add constants.0 - Step info: nrinput=1 nroutput=2
+2012/08/31 14:45:10 - Add constants.0 - Got previous step from [Add constants] #0 --> Database join
+2012/08/31 14:45:10 - Add constants.0 - input rel is 1:1
+2012/08/31 14:45:10 - Add constants.0 - Found input rowset [Database join.0 - Add constants.0]
+2012/08/31 14:45:10 - Add constants.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Add constants.0 - Found output rowset [Add constants.0 - Set Variables 2.0]
+2012/08/31 14:45:10 - Add constants.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Add constants.0 - Found output rowset [Add constants.0 - Table output.0]
+2012/08/31 14:45:10 - Add constants.0 - Finished dispatching
+2012/08/31 14:45:10 - SetVars -  Transformation has allocated a new step: [Add constants].0
+2012/08/31 14:45:10 - SetVars -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2012/08/31 14:45:10 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2012/08/31 14:45:10 - Get rows from result.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Database join.0]
+2012/08/31 14:45:10 - Get rows from result.0 - Finished dispatching
+2012/08/31 14:45:10 - SetVars -  Transformation has allocated a new step: [Get rows from result].0
+2012/08/31 14:45:10 - SetVars -  Transformation is about to allocate step [Database join] of type [DBJoin]
+2012/08/31 14:45:10 - Database join.0 - distribution activated
+2012/08/31 14:45:10 - Database join.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Database join.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:10 - Database join.0 - Got previous step from [Database join] #0 --> Get rows from result
+2012/08/31 14:45:10 - Database join.0 - input rel is 1:1
+2012/08/31 14:45:10 - Database join.0 - Found input rowset [Get rows from result.0 - Database join.0]
+2012/08/31 14:45:10 - Database join.0 - output rel. is  1:1
+2012/08/31 14:45:10 - Database join.0 - Found output rowset [Database join.0 - Add constants.0]
+2012/08/31 14:45:10 - Database join.0 - Finished dispatching
+2012/08/31 14:45:10 - SetVars -  Transformation has allocated a new step: [Database join].0
+2012/08/31 14:45:10 - SetVars -  Transformation is about to allocate step [Table output] of type [TableOutput]
+2012/08/31 14:45:10 - Table output.0 - distribution activated
+2012/08/31 14:45:10 - Table output.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:10 - Table output.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:10 - Table output.0 - Got previous step from [Table output] #0 --> Add constants
+2012/08/31 14:45:10 - Table output.0 - input rel is 1:1
+2012/08/31 14:45:10 - Table output.0 - Found input rowset [Add constants.0 - Table output.0]
+2012/08/31 14:45:10 - Table output.0 - Finished dispatching
+2012/08/31 14:45:10 - SetVars -  Transformation has allocated a new step: [Table output].0
+2012/08/31 14:45:10 - SetVars - This transformation can be replayed with replay date: 2012/08/31 14:45:10
+2012/08/31 14:45:10 - SetVars - Initialising 7 steps...
+2012/08/31 14:45:10 - Property Input.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Set Variables 2.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Get rows from result.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Database join.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Set Variables.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Table output.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - Add constants.0 - Running on slave server #0/1.
+2012/08/31 14:45:10 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:10 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:10 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:10 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:10 - Table output.0 - Connected to database [hcit_FormBuilder] (commit=100)
+2012/08/31 14:45:10 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:10 - Database join.0 - Connected to database...
+2012/08/31 14:45:10 - SetVars - Step [Property Input.0] initialized flawlessly.
+2012/08/31 14:45:10 - SetVars - Step [Set Variables.0] initialized flawlessly.
+2012/08/31 14:45:10 - SetVars - Step [Set Variables 2.0] initialized flawlessly.
+2012/08/31 14:45:10 - SetVars - Step [Add constants.0] initialized flawlessly.
+2012/08/31 14:45:10 - SetVars - Step [Get rows from result.0] initialized flawlessly.
+2012/08/31 14:45:10 - SetVars - Step [Database join.0] initialized flawlessly.
+2012/08/31 14:45:10 - SetVars - Step [Table output.0] initialized flawlessly.
+2012/08/31 14:45:10 - Property Input.0 - Starting to run...
+2012/08/31 14:45:10 - Set Variables 2.0 - Starting to run...
+2012/08/31 14:45:10 - Set Variables.0 - Starting to run...
+2012/08/31 14:45:10 - Database join.0 - Starting to run...
+2012/08/31 14:45:10 - Add constants.0 - Starting to run...
+2012/08/31 14:45:10 - Table output.0 - Starting to run...
+2012/08/31 14:45:10 - SetVars - Transformation has allocated 7 threads and 6 rowsets.
+2012/08/31 14:45:10 - Get rows from result.0 - Starting to run...
+2012/08/31 14:45:10 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:10 - Database join.0 - Checking row: [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt], [form_data_20120720_123.txt], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1], [file], [Y], [N], [Y], [Y], [2012/08/31 14:44:56.000], [87], [txt], [file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt], [file:///], [1]
+2012/08/31 14:45:10 - Table output.0 - Prepared statement : INSERT INTO fileprocess.submissions (idx, property_file_name, xml_file_count, status) VALUES ( ?,  ?,  ?,  ?)
+2012/08/31 14:45:10 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:10 - Add constants.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:45:10 - Set Variables 2.0 - Setting environment variables...
+2012/08/31 14:45:11 - Database join.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable FILE_PATH to value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1]
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable FILE_NAME to value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt]
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable SHORT_FILE_NAME to value [form_data_20120720_123.txt]
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable SUBMISSION_ID to value [114]
+2012/08/31 14:45:11 - Property Input.0 - Field filename contains '/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt'
+2012/08/31 14:45:11 - Property Input.0 - Opening file: file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt
+2012/08/31 14:45:11 - Property Input.0 - Finished opening file file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt
+2012/08/31 14:45:11 - Property Input.0 - We found 2 key(s) in file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt]
+2012/08/31 14:45:11 - Set Variables.0 - Value #17 -  [key] is used in the script.
+2012/08/31 14:45:11 - Set Variables.0 - Value #18 -  [value] is used in the script.
+2012/08/31 14:45:11 - Set Variables.0 - This script is using 2 values from the input stream(s)
+2012/08/31 14:45:11 - Set Variables.0 - Optimization level set to 9.
+2012/08/31 14:45:11 - Set Variables 2.0 - Finished after 1 rows.
+2012/08/31 14:45:11 - Set Variables 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Property Input.0 - Finished processing
+2012/08/31 14:45:11 - Property Input.0 - Finished processing (I=2, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:45:11 - Set Variables.0 - No starting Script found!
+2012/08/31 14:45:11 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:11 - Table output.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Set Variables.0 - No tran_Status found. Transformation status checking not available.
+2012/08/31 14:45:11 - Set Variables.0 - No end Script found!
+2012/08/31 14:45:11 - Set Variables.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:11 - ProcessPropertyFile - Starting entry [SetTransaction]
+2012/08/31 14:45:11 - ProcessPropertyFile - exec(10, 0, SetTransaction.0)
+2012/08/31 14:45:11 - SetTransaction - Starting job entry
+2012/08/31 14:45:11 - SetTransaction - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetTransaction.ktr]
+2012/08/31 14:45:11 - SetTransaction - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetTransaction.ktr]
+2012/08/31 14:45:11 - SetTransaction - Starting transformation...(file=${Internal.Job.Filename.Directory}/SetTransaction.ktr, name=SetTransaction, repinfo=null)
+2012/08/31 14:45:11 - SetTransaction - Transformation is pre-loaded.
+2012/08/31 14:45:11 - SetTransaction - Dispatching started for transformation [SetTransaction]
+2012/08/31 14:45:11 - SetTransaction - Nr of arguments detected:0 
+2012/08/31 14:45:11 - SetTransaction - This is not a replay transformation
+2012/08/31 14:45:11 - SetTransaction - I found 18 different steps to launch.
+2012/08/31 14:45:11 - SetTransaction - Allocating rowsets...
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 0 --> Get Filename 
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Get Filename .0 - AC-Slash.0]
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Get Filename .0 - Calculator 2.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 2 rowsets for step 0 --> Get Filename   
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 1 --> AC-Slash
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [AC-Slash.0 - Split-GenRows.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 3 rowsets for step 1 --> AC-Slash  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 2 --> Calculator
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Calculator.0 - XMLFileExists?.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 4 rowsets for step 2 --> Calculator  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 3 --> XMLFileExists?
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [XMLFileExists?.0 - Log-FileName.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 5 rowsets for step 3 --> XMLFileExists?  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 4 --> Log-FileName
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Log-FileName.0 - JS-Status.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 6 rowsets for step 4 --> Log-FileName  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 5 --> JS-Status
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [JS-Status.0 - Switch / Case.0]
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [JS-Status.0 - Blocking Step.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 8 rowsets for step 5 --> JS-Status  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 6 --> Switch / Case
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Switch / Case.0 - PreTxn-FileNoExists.0]
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Switch / Case.0 - CopyFile.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 10 rowsets for step 6 --> Switch / Case  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 7 --> PreTxn-FileNoExists
+2012/08/31 14:45:11 - SetTransaction -  Allocated 10 rowsets for step 7 --> PreTxn-FileNoExists  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 8 --> MoveFile
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [MoveFile.0 - PreTxn-FileExists.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 11 rowsets for step 8 --> MoveFile  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 9 --> PreTxn-FileExists
+2012/08/31 14:45:11 - SetTransaction -  Allocated 11 rowsets for step 9 --> PreTxn-FileExists  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 10 --> CopyFile
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [CopyFile.0 - MoveFile.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 12 rowsets for step 10 --> CopyFile  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 11 --> Blocking Step
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Blocking Step.0 - Add IN_PROGRESS_FIELD.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 13 rowsets for step 11 --> Blocking Step  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 12 --> Split-GenRows
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Split-GenRows.0 - Calculator.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 14 rowsets for step 12 --> Split-GenRows  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 13 --> Calculator 2
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Calculator 2.0 - MovePropFile.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 15 rowsets for step 13 --> Calculator 2  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 14 --> MovePropFile
+2012/08/31 14:45:11 - SetTransaction -  Allocated 15 rowsets for step 14 --> MovePropFile  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 15 --> Add IN_PROGRESS_FIELD
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Add IN_PROGRESS_FIELD.0 - Update.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 16 rowsets for step 15 --> Add IN_PROGRESS_FIELD  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 16 --> Update
+2012/08/31 14:45:11 - SetTransaction -  Allocated 16 rowsets for step 16 --> Update  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 17 --> SJ-GenRows
+2012/08/31 14:45:11 - SetTransaction -  Allocated 16 rowsets for step 17 --> SJ-GenRows  
+2012/08/31 14:45:11 - SetTransaction - Allocating Steps & StepData...
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Get Filename ] of type [GetVariable]
+2012/08/31 14:45:11 - Get Filename .0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Get Filename .0 - Step info: nrinput=0 nroutput=2
+2012/08/31 14:45:11 - Get Filename .0 - output rel. is  1:1
+2012/08/31 14:45:11 - Get Filename .0 - Found output rowset [Get Filename .0 - AC-Slash.0]
+2012/08/31 14:45:11 - Get Filename .0 - output rel. is  1:1
+2012/08/31 14:45:11 - Get Filename .0 - Found output rowset [Get Filename .0 - Calculator 2.0]
+2012/08/31 14:45:11 - Get Filename .0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Get Filename ].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [AC-Slash] of type [Constant]
+2012/08/31 14:45:11 - AC-Slash.0 - distribution activated
+2012/08/31 14:45:11 - AC-Slash.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - AC-Slash.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - AC-Slash.0 - Got previous step from [AC-Slash] #0 --> Get Filename 
+2012/08/31 14:45:11 - AC-Slash.0 - input rel is 1:1
+2012/08/31 14:45:11 - AC-Slash.0 - Found input rowset [Get Filename .0 - AC-Slash.0]
+2012/08/31 14:45:11 - AC-Slash.0 - output rel. is  1:1
+2012/08/31 14:45:11 - AC-Slash.0 - Found output rowset [AC-Slash.0 - Split-GenRows.0]
+2012/08/31 14:45:11 - AC-Slash.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [AC-Slash].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Calculator] of type [Calculator]
+2012/08/31 14:45:11 - Calculator.0 - distribution activated
+2012/08/31 14:45:11 - Calculator.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Calculator.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Calculator.0 - Got previous step from [Calculator] #0 --> Split-GenRows
+2012/08/31 14:45:11 - Calculator.0 - input rel is 1:1
+2012/08/31 14:45:11 - Calculator.0 - Found input rowset [Split-GenRows.0 - Calculator.0]
+2012/08/31 14:45:11 - Calculator.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Calculator.0 - Found output rowset [Calculator.0 - XMLFileExists?.0]
+2012/08/31 14:45:11 - Calculator.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Calculator].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [XMLFileExists?] of type [FileExists]
+2012/08/31 14:45:11 - XMLFileExists?.0 - distribution activated
+2012/08/31 14:45:11 - XMLFileExists?.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - XMLFileExists?.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - XMLFileExists?.0 - Got previous step from [XMLFileExists?] #0 --> Calculator
+2012/08/31 14:45:11 - XMLFileExists?.0 - input rel is 1:1
+2012/08/31 14:45:11 - XMLFileExists?.0 - Found input rowset [Calculator.0 - XMLFileExists?.0]
+2012/08/31 14:45:11 - XMLFileExists?.0 - output rel. is  1:1
+2012/08/31 14:45:11 - XMLFileExists?.0 - Found output rowset [XMLFileExists?.0 - Log-FileName.0]
+2012/08/31 14:45:11 - XMLFileExists?.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [XMLFileExists?].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Log-FileName] of type [WriteToLog]
+2012/08/31 14:45:11 - Log-FileName.0 - distribution activated
+2012/08/31 14:45:11 - Log-FileName.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Log-FileName.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Log-FileName.0 - Got previous step from [Log-FileName] #0 --> XMLFileExists?
+2012/08/31 14:45:11 - Log-FileName.0 - input rel is 1:1
+2012/08/31 14:45:11 - Log-FileName.0 - Found input rowset [XMLFileExists?.0 - Log-FileName.0]
+2012/08/31 14:45:11 - Log-FileName.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Log-FileName.0 - Found output rowset [Log-FileName.0 - JS-Status.0]
+2012/08/31 14:45:11 - Log-FileName.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Log-FileName].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [JS-Status] of type [ScriptValueMod]
+2012/08/31 14:45:11 - JS-Status.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - JS-Status.0 - Step info: nrinput=1 nroutput=2
+2012/08/31 14:45:11 - JS-Status.0 - Got previous step from [JS-Status] #0 --> Log-FileName
+2012/08/31 14:45:11 - JS-Status.0 - input rel is 1:1
+2012/08/31 14:45:11 - JS-Status.0 - Found input rowset [Log-FileName.0 - JS-Status.0]
+2012/08/31 14:45:11 - JS-Status.0 - output rel. is  1:1
+2012/08/31 14:45:11 - JS-Status.0 - Found output rowset [JS-Status.0 - Switch / Case.0]
+2012/08/31 14:45:11 - JS-Status.0 - output rel. is  1:1
+2012/08/31 14:45:11 - JS-Status.0 - Found output rowset [JS-Status.0 - Blocking Step.0]
+2012/08/31 14:45:11 - JS-Status.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [JS-Status].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Switch / Case] of type [SwitchCase]
+2012/08/31 14:45:11 - Switch / Case.0 - distribution activated
+2012/08/31 14:45:11 - Switch / Case.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Switch / Case.0 - Step info: nrinput=1 nroutput=2
+2012/08/31 14:45:11 - Switch / Case.0 - Got previous step from [Switch / Case] #0 --> JS-Status
+2012/08/31 14:45:11 - Switch / Case.0 - input rel is 1:1
+2012/08/31 14:45:11 - Switch / Case.0 - Found input rowset [JS-Status.0 - Switch / Case.0]
+2012/08/31 14:45:11 - Switch / Case.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Switch / Case.0 - Found output rowset [Switch / Case.0 - PreTxn-FileNoExists.0]
+2012/08/31 14:45:11 - Switch / Case.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Switch / Case.0 - Found output rowset [Switch / Case.0 - CopyFile.0]
+2012/08/31 14:45:11 - Switch / Case.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Switch / Case].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [PreTxn-FileNoExists] of type [TableOutput]
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - distribution activated
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Got previous step from [PreTxn-FileNoExists] #0 --> Switch / Case
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - input rel is 1:1
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Found input rowset [Switch / Case.0 - PreTxn-FileNoExists.0]
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [PreTxn-FileNoExists].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [MoveFile] of type [ProcessFiles]
+2012/08/31 14:45:11 - MoveFile.0 - distribution activated
+2012/08/31 14:45:11 - MoveFile.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - MoveFile.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - MoveFile.0 - Got previous step from [MoveFile] #0 --> CopyFile
+2012/08/31 14:45:11 - MoveFile.0 - input rel is 1:1
+2012/08/31 14:45:11 - MoveFile.0 - Found input rowset [CopyFile.0 - MoveFile.0]
+2012/08/31 14:45:11 - MoveFile.0 - output rel. is  1:1
+2012/08/31 14:45:11 - MoveFile.0 - Found output rowset [MoveFile.0 - PreTxn-FileExists.0]
+2012/08/31 14:45:11 - MoveFile.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [MoveFile].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [PreTxn-FileExists] of type [TableOutput]
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - distribution activated
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Got previous step from [PreTxn-FileExists] #0 --> MoveFile
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - input rel is 1:1
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Found input rowset [MoveFile.0 - PreTxn-FileExists.0]
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [PreTxn-FileExists].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [CopyFile] of type [ProcessFiles]
+2012/08/31 14:45:11 - CopyFile.0 - distribution activated
+2012/08/31 14:45:11 - CopyFile.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - CopyFile.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - CopyFile.0 - Got previous step from [CopyFile] #0 --> Switch / Case
+2012/08/31 14:45:11 - CopyFile.0 - input rel is 1:1
+2012/08/31 14:45:11 - CopyFile.0 - Found input rowset [Switch / Case.0 - CopyFile.0]
+2012/08/31 14:45:11 - CopyFile.0 - output rel. is  1:1
+2012/08/31 14:45:11 - CopyFile.0 - Found output rowset [CopyFile.0 - MoveFile.0]
+2012/08/31 14:45:11 - CopyFile.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [CopyFile].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Blocking Step] of type [BlockingStep]
+2012/08/31 14:45:11 - Blocking Step.0 - distribution activated
+2012/08/31 14:45:11 - Blocking Step.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Blocking Step.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Blocking Step.0 - Got previous step from [Blocking Step] #0 --> JS-Status
+2012/08/31 14:45:11 - Blocking Step.0 - input rel is 1:1
+2012/08/31 14:45:11 - Blocking Step.0 - Found input rowset [JS-Status.0 - Blocking Step.0]
+2012/08/31 14:45:11 - Blocking Step.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Blocking Step.0 - Found output rowset [Blocking Step.0 - Add IN_PROGRESS_FIELD.0]
+2012/08/31 14:45:11 - Blocking Step.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Blocking Step].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Split-GenRows] of type [SplitFieldToRows3]
+2012/08/31 14:45:11 - Split-GenRows.0 - distribution activated
+2012/08/31 14:45:11 - Split-GenRows.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Split-GenRows.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Split-GenRows.0 - Got previous step from [Split-GenRows] #0 --> AC-Slash
+2012/08/31 14:45:11 - Split-GenRows.0 - input rel is 1:1
+2012/08/31 14:45:11 - Split-GenRows.0 - Found input rowset [AC-Slash.0 - Split-GenRows.0]
+2012/08/31 14:45:11 - Split-GenRows.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Split-GenRows.0 - Found output rowset [Split-GenRows.0 - Calculator.0]
+2012/08/31 14:45:11 - Split-GenRows.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Split-GenRows].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Calculator 2] of type [Calculator]
+2012/08/31 14:45:11 - Calculator 2.0 - distribution activated
+2012/08/31 14:45:11 - Calculator 2.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Calculator 2.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Calculator 2.0 - Got previous step from [Calculator 2] #0 --> Get Filename 
+2012/08/31 14:45:11 - Calculator 2.0 - input rel is 1:1
+2012/08/31 14:45:11 - Calculator 2.0 - Found input rowset [Get Filename .0 - Calculator 2.0]
+2012/08/31 14:45:11 - Calculator 2.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Calculator 2.0 - Found output rowset [Calculator 2.0 - MovePropFile.0]
+2012/08/31 14:45:11 - Calculator 2.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Calculator 2].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [MovePropFile] of type [ProcessFiles]
+2012/08/31 14:45:11 - MovePropFile.0 - distribution activated
+2012/08/31 14:45:11 - MovePropFile.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - MovePropFile.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - MovePropFile.0 - Got previous step from [MovePropFile] #0 --> Calculator 2
+2012/08/31 14:45:11 - MovePropFile.0 - input rel is 1:1
+2012/08/31 14:45:11 - MovePropFile.0 - Found input rowset [Calculator 2.0 - MovePropFile.0]
+2012/08/31 14:45:11 - MovePropFile.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [MovePropFile].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Add IN_PROGRESS_FIELD] of type [Constant]
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - distribution activated
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Got previous step from [Add IN_PROGRESS_FIELD] #0 --> Blocking Step
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - input rel is 1:1
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Found input rowset [Blocking Step.0 - Add IN_PROGRESS_FIELD.0]
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Found output rowset [Add IN_PROGRESS_FIELD.0 - Update.0]
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Add IN_PROGRESS_FIELD].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Update] of type [Update]
+2012/08/31 14:45:11 - Update.0 - distribution activated
+2012/08/31 14:45:11 - Update.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Update.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - Update.0 - Got previous step from [Update] #0 --> Add IN_PROGRESS_FIELD
+2012/08/31 14:45:11 - Update.0 - input rel is 1:1
+2012/08/31 14:45:11 - Update.0 - Found input rowset [Add IN_PROGRESS_FIELD.0 - Update.0]
+2012/08/31 14:45:11 - Update.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Update].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [SJ-GenRows] of type [ScriptValueMod]
+2012/08/31 14:45:11 - SJ-GenRows.0 - distribution activated
+2012/08/31 14:45:11 - SJ-GenRows.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - SJ-GenRows.0 - Step info: nrinput=0 nroutput=0
+2012/08/31 14:45:11 - SJ-GenRows.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [SJ-GenRows].0
+2012/08/31 14:45:11 - SetTransaction - This transformation can be replayed with replay date: 2012/08/31 14:45:11
+2012/08/31 14:45:11 - SetTransaction - Initialising 18 steps...
+2012/08/31 14:45:11 - Get Filename .0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - AC-Slash.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Calculator.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - XMLFileExists?.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - JS-Status.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Switch / Case.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - SJ-GenRows.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:11 - MoveFile.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - CopyFile.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:11 - Split-GenRows.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Log-FileName.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Update.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - MovePropFile.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Calculator 2.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Blocking Step.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:11 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:11 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Connected to database [hcit_FormBuilder] (commit=100)
+2012/08/31 14:45:11 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:11 - Update.0 - Connected to database...
+2012/08/31 14:45:11 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:11 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Connected to database [hcit_FormBuilder] (commit=100)
+2012/08/31 14:45:11 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:11 - SetTransaction - Step [Get Filename .0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [AC-Slash.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Calculator.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [XMLFileExists?.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Log-FileName.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [JS-Status.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Switch / Case.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [PreTxn-FileNoExists.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [MoveFile.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [PreTxn-FileExists.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [CopyFile.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Blocking Step.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Split-GenRows.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Calculator 2.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [MovePropFile.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Add IN_PROGRESS_FIELD.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [Update.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetTransaction - Step [SJ-GenRows.0] initialized flawlessly.
+2012/08/31 14:45:11 - Get Filename .0 - Starting to run...
+2012/08/31 14:45:11 - Calculator.0 - Starting to run...
+2012/08/31 14:45:11 - XMLFileExists?.0 - Starting to run...
+2012/08/31 14:45:11 - AC-Slash.0 - Starting to run...
+2012/08/31 14:45:11 - Log-FileName.0 - Starting to run...
+2012/08/31 14:45:11 - Switch / Case.0 - Starting to run...
+2012/08/31 14:45:11 - JS-Status.0 - Starting to run...
+2012/08/31 14:45:11 - Get Filename .0 - field [file_path] has value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1]
+2012/08/31 14:45:11 - Get Filename .0 - field [prop_file_name] has value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt]
+2012/08/31 14:45:11 - Get Filename .0 - field [xml_files] has value [two.xml;three.xmll;form_data_20120720_123.xml]
+2012/08/31 14:45:11 - Get Filename .0 - field [sub_id] has value [114]
+2012/08/31 14:45:11 - Get Filename .0 - field [un_processed_folder] has value [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/]
+2012/08/31 14:45:11 - Get Filename .0 - field [archive_folder] has value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/]
+2012/08/31 14:45:11 - Get Filename .0 - field [short_file_name] has value [form_data_20120720_123.txt]
+2012/08/31 14:45:11 - Get Filename .0 - field [notification_email] has value [mmahishi@vertizone.com]
+2012/08/31 14:45:11 - Get Filename .0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Starting to run...
+2012/08/31 14:45:11 - Blocking Step.0 - Starting to run...
+2012/08/31 14:45:11 - MoveFile.0 - Starting to run...
+2012/08/31 14:45:11 - Split-GenRows.0 - Starting to run...
+2012/08/31 14:45:11 - SetTransaction - Transformation has allocated 18 threads and 16 rowsets.
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Starting to run...
+2012/08/31 14:45:11 - Calculator 2.0 - Starting to run...
+2012/08/31 14:45:11 - MovePropFile.0 - Starting to run...
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Starting to run...
+2012/08/31 14:45:11 - CopyFile.0 - Starting to run...
+2012/08/31 14:45:11 - SJ-GenRows.0 - Starting to run...
+2012/08/31 14:45:11 - Update.0 - Starting to run...
+2012/08/31 14:45:11 - Split-GenRows.0 - Finished processing (I=0, O=0, R=1, W=3, U=0, E=0)
+2012/08/31 14:45:11 - AC-Slash.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - SJ-GenRows.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - ------------> Linenr 1------------------------------
+2012/08/31 14:45:11 - Log-FileName.0 - XML File ?? Exists ??
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - xml_file = /home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/two.xml
+2012/08/31 14:45:11 - Log-FileName.0 - file_exists = N
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - ====================
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - ------------> Linenr 2------------------------------
+2012/08/31 14:45:11 - Log-FileName.0 - XML File ?? Exists ??
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - xml_file = /home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/three.xmll
+2012/08/31 14:45:11 - Log-FileName.0 - file_exists = N
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - ====================
+2012/08/31 14:45:11 - Calculator.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:45:11 - MovePropFile.0 - Target file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/form_data_20120720_123.txt] exists.
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - ------------> Linenr 3------------------------------
+2012/08/31 14:45:11 - Log-FileName.0 - XML File ?? Exists ??
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - xml_file = /home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.xml
+2012/08/31 14:45:11 - Log-FileName.0 - file_exists = Y
+2012/08/31 14:45:11 - Log-FileName.0 - 
+2012/08/31 14:45:11 - Log-FileName.0 - ====================
+2012/08/31 14:45:11 - Calculator 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - XMLFileExists?.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:45:11 - Log-FileName.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:45:11 - JS-Status.0 - Value #10 -  [xml_file] is used in the script.
+2012/08/31 14:45:11 - JS-Status.0 - Value #13 -  [file_exists] is used in the script.
+2012/08/31 14:45:11 - JS-Status.0 - This script is using 2 values from the input stream(s)
+2012/08/31 14:45:11 - JS-Status.0 - Optimization level set to 9.
+2012/08/31 14:45:11 - MovePropFile.0 - Source file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt] was moved to [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/form_data_20120720_123.txt]
+2012/08/31 14:45:11 - MovePropFile.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - JS-Status.0 - Start Script found!
+2012/08/31 14:45:11 - JS-Status.0 - No tran_Status found. Transformation status checking not available.
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Prepared statement : INSERT INTO fileprocess.pre_transactions (submmission_id, xml_file, status, xml_file_name) VALUES ( ?,  ?,  ?,  ?)
+2012/08/31 14:45:11 - CopyFile.0 - Target file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/form_data_20120720_123.xml] exists.
+2012/08/31 14:45:11 - CopyFile.0 - Source file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.xml] was copied to [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/form_data_20120720_123.xml]
+2012/08/31 14:45:11 - MoveFile.0 - Source file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.xml] was moved to [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/form_data_20120720_123.xml]
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Prepared statement : INSERT INTO fileprocess.pre_transactions (submmission_id, xml_file, status, xml_file_name) VALUES ( ?,  ?,  ?,  ?)
+2012/08/31 14:45:11 - JS-Status.0 - No end Script found!
+2012/08/31 14:45:11 - JS-Status.0 - Finished processing (I=0, O=0, R=3, W=6, U=0, E=0)
+2012/08/31 14:45:11 - Blocking Step.0 - Finished processing (I=0, O=0, R=3, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Switch / Case.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:45:11 - Update.0 - Checking row: [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.txt], [two.xml;three.xmll;form_data_20120720_123.xml], [ 00000000000000000000000000000000000000000000000000000000000000000000000000000114], [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/], [form_data_20120720_123.txt], [mmahishi@vertizone.com], [/], [form_data_20120720_123.xml], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/form_data_20120720_123.xml], [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/form_data_20120720_123.xml], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/form_data_20120720_123.xml], [Y], [0], [3], [IN_PROGRESS]
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - CopyFile.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - MoveFile.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Update.0 - Setting preparedStatement to [SELECT xml_file_count, notification_email, status FROM fileprocess.submissions WHERE  ( ( idx = ?  ) ) ]
+2012/08/31 14:45:11 - Update.0 - Setting update preparedStatement to [UPDATE fileprocess.submissions
+2012/08/31 14:45:11 - Update.0 - SET xml_file_count = ?
+2012/08/31 14:45:11 - Update.0 - ,   notification_email = ?
+2012/08/31 14:45:11 - Update.0 - ,   status = ?
+2012/08/31 14:45:11 - Update.0 - WHERE  ( ( idx = ?  ) ) ]
+2012/08/31 14:45:11 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Finished processing (I=0, O=2, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:11 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:11 - Update.0 - Finished processing (I=1, O=0, R=1, W=1, U=1, E=0)
+2012/08/31 14:45:11 - ProcessPropertyFile - Starting entry [Success]
+2012/08/31 14:45:11 - ProcessPropertyFile - exec(11, 0, Success.0)
+2012/08/31 14:45:11 - Success - Starting job entry
+2012/08/31 14:45:11 - ProcessPropertyFile - Finished job entry [Success] (result=[true])
+2012/08/31 14:45:11 - ProcessPropertyFile - Finished job entry [SetTransaction] (result=[true])
+2012/08/31 14:45:11 - ProcessPropertyFile - Finished job entry [SetVars] (result=[true])
+2012/08/31 14:45:11 - ProcessPropertyFile - exec(8, 0, START.0)
+2012/08/31 14:45:11 - START - Starting job entry
+2012/08/31 14:45:11 - ProcessPropertyFile - Starting entry [SetVars]
+2012/08/31 14:45:11 - ProcessPropertyFile - exec(9, 0, SetVars.0)
+2012/08/31 14:45:11 - SetVars - Starting job entry
+2012/08/31 14:45:11 - SetVars - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetVars.ktr]
+2012/08/31 14:45:11 - SetVars - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetVars.ktr]
+2012/08/31 14:45:11 - SetVars - Starting transformation...(file=${Internal.Job.Filename.Directory}/SetVars.ktr, name=SetVars, repinfo=null)
+2012/08/31 14:45:11 - SetVars - Transformation is pre-loaded.
+2012/08/31 14:45:11 - SetVars - Dispatching started for transformation [SetVars]
+2012/08/31 14:45:11 - SetVars - Nr of arguments detected:0 
+2012/08/31 14:45:11 - SetVars - This is not a replay transformation
+2012/08/31 14:45:11 - SetVars - I found 7 different steps to launch.
+2012/08/31 14:45:11 - SetVars - Allocating rowsets...
+2012/08/31 14:45:11 - SetVars -  Allocating rowsets for step 0 --> Property Input
+2012/08/31 14:45:11 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetVars - Transformation allocated new rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:11 - SetVars -  Allocated 1 rowsets for step 0 --> Property Input  
+2012/08/31 14:45:11 - SetVars -  Allocating rowsets for step 1 --> Set Variables
+2012/08/31 14:45:11 - SetVars -  Allocated 1 rowsets for step 1 --> Set Variables  
+2012/08/31 14:45:11 - SetVars -  Allocating rowsets for step 2 --> Set Variables 2
+2012/08/31 14:45:11 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetVars - Transformation allocated new rowset [Set Variables 2.0 - Property Input.0]
+2012/08/31 14:45:11 - SetVars -  Allocated 2 rowsets for step 2 --> Set Variables 2  
+2012/08/31 14:45:11 - SetVars -  Allocating rowsets for step 3 --> Add constants
+2012/08/31 14:45:11 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetVars - Transformation allocated new rowset [Add constants.0 - Set Variables 2.0]
+2012/08/31 14:45:11 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetVars - Transformation allocated new rowset [Add constants.0 - Table output.0]
+2012/08/31 14:45:11 - SetVars -  Allocated 4 rowsets for step 3 --> Add constants  
+2012/08/31 14:45:11 - SetVars -  Allocating rowsets for step 4 --> Get rows from result
+2012/08/31 14:45:11 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetVars - Transformation allocated new rowset [Get rows from result.0 - Database join.0]
+2012/08/31 14:45:11 - SetVars -  Allocated 5 rowsets for step 4 --> Get rows from result  
+2012/08/31 14:45:11 - SetVars -  Allocating rowsets for step 5 --> Database join
+2012/08/31 14:45:11 - SetVars -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetVars - Transformation allocated new rowset [Database join.0 - Add constants.0]
+2012/08/31 14:45:11 - SetVars -  Allocated 6 rowsets for step 5 --> Database join  
+2012/08/31 14:45:11 - SetVars -  Allocating rowsets for step 6 --> Table output
+2012/08/31 14:45:11 - SetVars -  Allocated 6 rowsets for step 6 --> Table output  
+2012/08/31 14:45:11 - SetVars - Allocating Steps & StepData...
+2012/08/31 14:45:11 - SetVars -  Transformation is about to allocate step [Property Input] of type [PropertyInput]
+2012/08/31 14:45:11 - Property Input.0 - distribution activated
+2012/08/31 14:45:11 - Property Input.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Property Input.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Property Input.0 - Got previous step from [Property Input] #0 --> Set Variables 2
+2012/08/31 14:45:11 - Property Input.0 - input rel is 1:1
+2012/08/31 14:45:11 - Property Input.0 - Found input rowset [Set Variables 2.0 - Property Input.0]
+2012/08/31 14:45:11 - Property Input.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Property Input.0 - Found output rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:11 - Property Input.0 - Finished dispatching
+2012/08/31 14:45:11 - SetVars -  Transformation has allocated a new step: [Property Input].0
+2012/08/31 14:45:11 - SetVars -  Transformation is about to allocate step [Set Variables] of type [ScriptValueMod]
+2012/08/31 14:45:11 - Set Variables.0 - distribution activated
+2012/08/31 14:45:11 - Set Variables.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Set Variables.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - Set Variables.0 - Got previous step from [Set Variables] #0 --> Property Input
+2012/08/31 14:45:11 - Set Variables.0 - input rel is 1:1
+2012/08/31 14:45:11 - Set Variables.0 - Found input rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:45:11 - Set Variables.0 - Finished dispatching
+2012/08/31 14:45:11 - SetVars -  Transformation has allocated a new step: [Set Variables].0
+2012/08/31 14:45:11 - SetVars -  Transformation is about to allocate step [Set Variables 2] of type [SetVariable]
+2012/08/31 14:45:11 - Set Variables 2.0 - distribution activated
+2012/08/31 14:45:11 - Set Variables 2.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Set Variables 2.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Set Variables 2.0 - Got previous step from [Set Variables 2] #0 --> Add constants
+2012/08/31 14:45:11 - Set Variables 2.0 - input rel is 1:1
+2012/08/31 14:45:11 - Set Variables 2.0 - Found input rowset [Add constants.0 - Set Variables 2.0]
+2012/08/31 14:45:11 - Set Variables 2.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Set Variables 2.0 - Found output rowset [Set Variables 2.0 - Property Input.0]
+2012/08/31 14:45:11 - Set Variables 2.0 - Finished dispatching
+2012/08/31 14:45:11 - SetVars -  Transformation has allocated a new step: [Set Variables 2].0
+2012/08/31 14:45:11 - SetVars -  Transformation is about to allocate step [Add constants] of type [Constant]
+2012/08/31 14:45:11 - Add constants.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Add constants.0 - Step info: nrinput=1 nroutput=2
+2012/08/31 14:45:11 - Add constants.0 - Got previous step from [Add constants] #0 --> Database join
+2012/08/31 14:45:11 - Add constants.0 - input rel is 1:1
+2012/08/31 14:45:11 - Add constants.0 - Found input rowset [Database join.0 - Add constants.0]
+2012/08/31 14:45:11 - Add constants.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Add constants.0 - Found output rowset [Add constants.0 - Set Variables 2.0]
+2012/08/31 14:45:11 - Add constants.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Add constants.0 - Found output rowset [Add constants.0 - Table output.0]
+2012/08/31 14:45:11 - Add constants.0 - Finished dispatching
+2012/08/31 14:45:11 - SetVars -  Transformation has allocated a new step: [Add constants].0
+2012/08/31 14:45:11 - SetVars -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2012/08/31 14:45:11 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2012/08/31 14:45:11 - Get rows from result.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Database join.0]
+2012/08/31 14:45:11 - Get rows from result.0 - Finished dispatching
+2012/08/31 14:45:11 - SetVars -  Transformation has allocated a new step: [Get rows from result].0
+2012/08/31 14:45:11 - SetVars -  Transformation is about to allocate step [Database join] of type [DBJoin]
+2012/08/31 14:45:11 - Database join.0 - distribution activated
+2012/08/31 14:45:11 - Database join.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Database join.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Database join.0 - Got previous step from [Database join] #0 --> Get rows from result
+2012/08/31 14:45:11 - Database join.0 - input rel is 1:1
+2012/08/31 14:45:11 - Database join.0 - Found input rowset [Get rows from result.0 - Database join.0]
+2012/08/31 14:45:11 - Database join.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Database join.0 - Found output rowset [Database join.0 - Add constants.0]
+2012/08/31 14:45:11 - Database join.0 - Finished dispatching
+2012/08/31 14:45:11 - SetVars -  Transformation has allocated a new step: [Database join].0
+2012/08/31 14:45:11 - SetVars -  Transformation is about to allocate step [Table output] of type [TableOutput]
+2012/08/31 14:45:11 - Table output.0 - distribution activated
+2012/08/31 14:45:11 - Table output.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Table output.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - Table output.0 - Got previous step from [Table output] #0 --> Add constants
+2012/08/31 14:45:11 - Table output.0 - input rel is 1:1
+2012/08/31 14:45:11 - Table output.0 - Found input rowset [Add constants.0 - Table output.0]
+2012/08/31 14:45:11 - Table output.0 - Finished dispatching
+2012/08/31 14:45:11 - SetVars -  Transformation has allocated a new step: [Table output].0
+2012/08/31 14:45:11 - SetVars - This transformation can be replayed with replay date: 2012/08/31 14:45:11
+2012/08/31 14:45:11 - SetVars - Initialising 7 steps...
+2012/08/31 14:45:11 - Property Input.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Set Variables 2.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Add constants.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Set Variables.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Get rows from result.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Table output.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:11 - Database join.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:11 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:11 - Table output.0 - Connected to database [hcit_FormBuilder] (commit=100)
+2012/08/31 14:45:11 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:11 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:11 - Database join.0 - Connected to database...
+2012/08/31 14:45:11 - SetVars - Step [Property Input.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetVars - Step [Set Variables.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetVars - Step [Set Variables 2.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetVars - Step [Add constants.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetVars - Step [Get rows from result.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetVars - Step [Database join.0] initialized flawlessly.
+2012/08/31 14:45:11 - SetVars - Step [Table output.0] initialized flawlessly.
+2012/08/31 14:45:11 - Set Variables.0 - Starting to run...
+2012/08/31 14:45:11 - Property Input.0 - Starting to run...
+2012/08/31 14:45:11 - Add constants.0 - Starting to run...
+2012/08/31 14:45:11 - SetVars - Transformation has allocated 7 threads and 6 rowsets.
+2012/08/31 14:45:11 - Set Variables 2.0 - Starting to run...
+2012/08/31 14:45:11 - Database join.0 - Starting to run...
+2012/08/31 14:45:11 - Table output.0 - Starting to run...
+2012/08/31 14:45:11 - Get rows from result.0 - Starting to run...
+2012/08/31 14:45:11 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Database join.0 - Checking row: [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [four.txt], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1], [file], [Y], [N], [Y], [Y], [2012/08/31 14:45:00.000], [58], [txt], [file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [file:///], [2]
+2012/08/31 14:45:11 - Set Variables 2.0 - Setting environment variables...
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable FILE_PATH to value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1]
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable FILE_NAME to value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt]
+2012/08/31 14:45:11 - Table output.0 - Prepared statement : INSERT INTO fileprocess.submissions (idx, property_file_name, xml_file_count, status) VALUES ( ?,  ?,  ?,  ?)
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable SHORT_FILE_NAME to value [four.txt]
+2012/08/31 14:45:11 - Set Variables 2.0 - Set variable SUBMISSION_ID to value [115]
+2012/08/31 14:45:11 - Property Input.0 - Field filename contains '/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt'
+2012/08/31 14:45:11 - Property Input.0 - Opening file: file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt
+2012/08/31 14:45:11 - Property Input.0 - Finished opening file file:///home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt
+2012/08/31 14:45:11 - Property Input.0 - We found 2 key(s) in file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt]
+2012/08/31 14:45:11 - Set Variables.0 - Value #17 -  [key] is used in the script.
+2012/08/31 14:45:11 - Set Variables.0 - Value #18 -  [value] is used in the script.
+2012/08/31 14:45:11 - Set Variables.0 - This script is using 2 values from the input stream(s)
+2012/08/31 14:45:11 - Set Variables.0 - Optimization level set to 9.
+2012/08/31 14:45:11 - Add constants.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:45:11 - Set Variables 2.0 - Finished after 1 rows.
+2012/08/31 14:45:11 - Set Variables 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Set Variables.0 - No starting Script found!
+2012/08/31 14:45:11 - Property Input.0 - Finished processing
+2012/08/31 14:45:11 - Property Input.0 - Finished processing (I=2, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:45:11 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:11 - Database join.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - Set Variables.0 - No tran_Status found. Transformation status checking not available.
+2012/08/31 14:45:11 - Set Variables.0 - No end Script found!
+2012/08/31 14:45:11 - Set Variables.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:11 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:11 - Table output.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:11 - ProcessPropertyFile - Starting entry [SetTransaction]
+2012/08/31 14:45:11 - ProcessPropertyFile - exec(10, 0, SetTransaction.0)
+2012/08/31 14:45:11 - SetTransaction - Starting job entry
+2012/08/31 14:45:11 - SetTransaction - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetTransaction.ktr]
+2012/08/31 14:45:11 - SetTransaction - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/GetFiles/SetTransaction.ktr]
+2012/08/31 14:45:11 - SetTransaction - Starting transformation...(file=${Internal.Job.Filename.Directory}/SetTransaction.ktr, name=SetTransaction, repinfo=null)
+2012/08/31 14:45:11 - SetTransaction - Transformation is pre-loaded.
+2012/08/31 14:45:11 - SetTransaction - Dispatching started for transformation [SetTransaction]
+2012/08/31 14:45:11 - SetTransaction - Nr of arguments detected:0 
+2012/08/31 14:45:11 - SetTransaction - This is not a replay transformation
+2012/08/31 14:45:11 - SetTransaction - I found 18 different steps to launch.
+2012/08/31 14:45:11 - SetTransaction - Allocating rowsets...
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 0 --> Get Filename 
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Get Filename .0 - AC-Slash.0]
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Get Filename .0 - Calculator 2.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 2 rowsets for step 0 --> Get Filename   
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 1 --> AC-Slash
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [AC-Slash.0 - Split-GenRows.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 3 rowsets for step 1 --> AC-Slash  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 2 --> Calculator
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Calculator.0 - XMLFileExists?.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 4 rowsets for step 2 --> Calculator  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 3 --> XMLFileExists?
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [XMLFileExists?.0 - Log-FileName.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 5 rowsets for step 3 --> XMLFileExists?  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 4 --> Log-FileName
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Log-FileName.0 - JS-Status.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 6 rowsets for step 4 --> Log-FileName  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 5 --> JS-Status
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [JS-Status.0 - Switch / Case.0]
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [JS-Status.0 - Blocking Step.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 8 rowsets for step 5 --> JS-Status  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 6 --> Switch / Case
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Switch / Case.0 - PreTxn-FileNoExists.0]
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Switch / Case.0 - CopyFile.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 10 rowsets for step 6 --> Switch / Case  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 7 --> PreTxn-FileNoExists
+2012/08/31 14:45:11 - SetTransaction -  Allocated 10 rowsets for step 7 --> PreTxn-FileNoExists  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 8 --> MoveFile
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [MoveFile.0 - PreTxn-FileExists.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 11 rowsets for step 8 --> MoveFile  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 9 --> PreTxn-FileExists
+2012/08/31 14:45:11 - SetTransaction -  Allocated 11 rowsets for step 9 --> PreTxn-FileExists  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 10 --> CopyFile
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [CopyFile.0 - MoveFile.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 12 rowsets for step 10 --> CopyFile  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 11 --> Blocking Step
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Blocking Step.0 - Add IN_PROGRESS_FIELD.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 13 rowsets for step 11 --> Blocking Step  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 12 --> Split-GenRows
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Split-GenRows.0 - Calculator.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 14 rowsets for step 12 --> Split-GenRows  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 13 --> Calculator 2
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Calculator 2.0 - MovePropFile.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 15 rowsets for step 13 --> Calculator 2  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 14 --> MovePropFile
+2012/08/31 14:45:11 - SetTransaction -  Allocated 15 rowsets for step 14 --> MovePropFile  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 15 --> Add IN_PROGRESS_FIELD
+2012/08/31 14:45:11 - SetTransaction -   prevcopies = 1, nextcopies=1
+2012/08/31 14:45:11 - SetTransaction - Transformation allocated new rowset [Add IN_PROGRESS_FIELD.0 - Update.0]
+2012/08/31 14:45:11 - SetTransaction -  Allocated 16 rowsets for step 15 --> Add IN_PROGRESS_FIELD  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 16 --> Update
+2012/08/31 14:45:11 - SetTransaction -  Allocated 16 rowsets for step 16 --> Update  
+2012/08/31 14:45:11 - SetTransaction -  Allocating rowsets for step 17 --> SJ-GenRows
+2012/08/31 14:45:11 - SetTransaction -  Allocated 16 rowsets for step 17 --> SJ-GenRows  
+2012/08/31 14:45:11 - SetTransaction - Allocating Steps & StepData...
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Get Filename ] of type [GetVariable]
+2012/08/31 14:45:11 - Get Filename .0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Get Filename .0 - Step info: nrinput=0 nroutput=2
+2012/08/31 14:45:11 - Get Filename .0 - output rel. is  1:1
+2012/08/31 14:45:11 - Get Filename .0 - Found output rowset [Get Filename .0 - AC-Slash.0]
+2012/08/31 14:45:11 - Get Filename .0 - output rel. is  1:1
+2012/08/31 14:45:11 - Get Filename .0 - Found output rowset [Get Filename .0 - Calculator 2.0]
+2012/08/31 14:45:11 - Get Filename .0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Get Filename ].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [AC-Slash] of type [Constant]
+2012/08/31 14:45:11 - AC-Slash.0 - distribution activated
+2012/08/31 14:45:11 - AC-Slash.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - AC-Slash.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - AC-Slash.0 - Got previous step from [AC-Slash] #0 --> Get Filename 
+2012/08/31 14:45:11 - AC-Slash.0 - input rel is 1:1
+2012/08/31 14:45:11 - AC-Slash.0 - Found input rowset [Get Filename .0 - AC-Slash.0]
+2012/08/31 14:45:11 - AC-Slash.0 - output rel. is  1:1
+2012/08/31 14:45:11 - AC-Slash.0 - Found output rowset [AC-Slash.0 - Split-GenRows.0]
+2012/08/31 14:45:11 - AC-Slash.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [AC-Slash].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Calculator] of type [Calculator]
+2012/08/31 14:45:11 - Calculator.0 - distribution activated
+2012/08/31 14:45:11 - Calculator.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Calculator.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Calculator.0 - Got previous step from [Calculator] #0 --> Split-GenRows
+2012/08/31 14:45:11 - Calculator.0 - input rel is 1:1
+2012/08/31 14:45:11 - Calculator.0 - Found input rowset [Split-GenRows.0 - Calculator.0]
+2012/08/31 14:45:11 - Calculator.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Calculator.0 - Found output rowset [Calculator.0 - XMLFileExists?.0]
+2012/08/31 14:45:11 - Calculator.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Calculator].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [XMLFileExists?] of type [FileExists]
+2012/08/31 14:45:11 - XMLFileExists?.0 - distribution activated
+2012/08/31 14:45:11 - XMLFileExists?.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - XMLFileExists?.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - XMLFileExists?.0 - Got previous step from [XMLFileExists?] #0 --> Calculator
+2012/08/31 14:45:11 - XMLFileExists?.0 - input rel is 1:1
+2012/08/31 14:45:11 - XMLFileExists?.0 - Found input rowset [Calculator.0 - XMLFileExists?.0]
+2012/08/31 14:45:11 - XMLFileExists?.0 - output rel. is  1:1
+2012/08/31 14:45:11 - XMLFileExists?.0 - Found output rowset [XMLFileExists?.0 - Log-FileName.0]
+2012/08/31 14:45:11 - XMLFileExists?.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [XMLFileExists?].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Log-FileName] of type [WriteToLog]
+2012/08/31 14:45:11 - Log-FileName.0 - distribution activated
+2012/08/31 14:45:11 - Log-FileName.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Log-FileName.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Log-FileName.0 - Got previous step from [Log-FileName] #0 --> XMLFileExists?
+2012/08/31 14:45:11 - Log-FileName.0 - input rel is 1:1
+2012/08/31 14:45:11 - Log-FileName.0 - Found input rowset [XMLFileExists?.0 - Log-FileName.0]
+2012/08/31 14:45:11 - Log-FileName.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Log-FileName.0 - Found output rowset [Log-FileName.0 - JS-Status.0]
+2012/08/31 14:45:11 - Log-FileName.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Log-FileName].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [JS-Status] of type [ScriptValueMod]
+2012/08/31 14:45:11 - JS-Status.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - JS-Status.0 - Step info: nrinput=1 nroutput=2
+2012/08/31 14:45:11 - JS-Status.0 - Got previous step from [JS-Status] #0 --> Log-FileName
+2012/08/31 14:45:11 - JS-Status.0 - input rel is 1:1
+2012/08/31 14:45:11 - JS-Status.0 - Found input rowset [Log-FileName.0 - JS-Status.0]
+2012/08/31 14:45:11 - JS-Status.0 - output rel. is  1:1
+2012/08/31 14:45:11 - JS-Status.0 - Found output rowset [JS-Status.0 - Switch / Case.0]
+2012/08/31 14:45:11 - JS-Status.0 - output rel. is  1:1
+2012/08/31 14:45:11 - JS-Status.0 - Found output rowset [JS-Status.0 - Blocking Step.0]
+2012/08/31 14:45:11 - JS-Status.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [JS-Status].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Switch / Case] of type [SwitchCase]
+2012/08/31 14:45:11 - Switch / Case.0 - distribution activated
+2012/08/31 14:45:11 - Switch / Case.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Switch / Case.0 - Step info: nrinput=1 nroutput=2
+2012/08/31 14:45:11 - Switch / Case.0 - Got previous step from [Switch / Case] #0 --> JS-Status
+2012/08/31 14:45:11 - Switch / Case.0 - input rel is 1:1
+2012/08/31 14:45:11 - Switch / Case.0 - Found input rowset [JS-Status.0 - Switch / Case.0]
+2012/08/31 14:45:11 - Switch / Case.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Switch / Case.0 - Found output rowset [Switch / Case.0 - PreTxn-FileNoExists.0]
+2012/08/31 14:45:11 - Switch / Case.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Switch / Case.0 - Found output rowset [Switch / Case.0 - CopyFile.0]
+2012/08/31 14:45:11 - Switch / Case.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Switch / Case].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [PreTxn-FileNoExists] of type [TableOutput]
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - distribution activated
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Got previous step from [PreTxn-FileNoExists] #0 --> Switch / Case
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - input rel is 1:1
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Found input rowset [Switch / Case.0 - PreTxn-FileNoExists.0]
+2012/08/31 14:45:11 - PreTxn-FileNoExists.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [PreTxn-FileNoExists].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [MoveFile] of type [ProcessFiles]
+2012/08/31 14:45:11 - MoveFile.0 - distribution activated
+2012/08/31 14:45:11 - MoveFile.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - MoveFile.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - MoveFile.0 - Got previous step from [MoveFile] #0 --> CopyFile
+2012/08/31 14:45:11 - MoveFile.0 - input rel is 1:1
+2012/08/31 14:45:11 - MoveFile.0 - Found input rowset [CopyFile.0 - MoveFile.0]
+2012/08/31 14:45:11 - MoveFile.0 - output rel. is  1:1
+2012/08/31 14:45:11 - MoveFile.0 - Found output rowset [MoveFile.0 - PreTxn-FileExists.0]
+2012/08/31 14:45:11 - MoveFile.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [MoveFile].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [PreTxn-FileExists] of type [TableOutput]
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - distribution activated
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Got previous step from [PreTxn-FileExists] #0 --> MoveFile
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - input rel is 1:1
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Found input rowset [MoveFile.0 - PreTxn-FileExists.0]
+2012/08/31 14:45:11 - PreTxn-FileExists.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [PreTxn-FileExists].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [CopyFile] of type [ProcessFiles]
+2012/08/31 14:45:11 - CopyFile.0 - distribution activated
+2012/08/31 14:45:11 - CopyFile.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - CopyFile.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - CopyFile.0 - Got previous step from [CopyFile] #0 --> Switch / Case
+2012/08/31 14:45:11 - CopyFile.0 - input rel is 1:1
+2012/08/31 14:45:11 - CopyFile.0 - Found input rowset [Switch / Case.0 - CopyFile.0]
+2012/08/31 14:45:11 - CopyFile.0 - output rel. is  1:1
+2012/08/31 14:45:11 - CopyFile.0 - Found output rowset [CopyFile.0 - MoveFile.0]
+2012/08/31 14:45:11 - CopyFile.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [CopyFile].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Blocking Step] of type [BlockingStep]
+2012/08/31 14:45:11 - Blocking Step.0 - distribution activated
+2012/08/31 14:45:11 - Blocking Step.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Blocking Step.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Blocking Step.0 - Got previous step from [Blocking Step] #0 --> JS-Status
+2012/08/31 14:45:11 - Blocking Step.0 - input rel is 1:1
+2012/08/31 14:45:11 - Blocking Step.0 - Found input rowset [JS-Status.0 - Blocking Step.0]
+2012/08/31 14:45:11 - Blocking Step.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Blocking Step.0 - Found output rowset [Blocking Step.0 - Add IN_PROGRESS_FIELD.0]
+2012/08/31 14:45:11 - Blocking Step.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Blocking Step].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Split-GenRows] of type [SplitFieldToRows3]
+2012/08/31 14:45:11 - Split-GenRows.0 - distribution activated
+2012/08/31 14:45:11 - Split-GenRows.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Split-GenRows.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Split-GenRows.0 - Got previous step from [Split-GenRows] #0 --> AC-Slash
+2012/08/31 14:45:11 - Split-GenRows.0 - input rel is 1:1
+2012/08/31 14:45:11 - Split-GenRows.0 - Found input rowset [AC-Slash.0 - Split-GenRows.0]
+2012/08/31 14:45:11 - Split-GenRows.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Split-GenRows.0 - Found output rowset [Split-GenRows.0 - Calculator.0]
+2012/08/31 14:45:11 - Split-GenRows.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Split-GenRows].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Calculator 2] of type [Calculator]
+2012/08/31 14:45:11 - Calculator 2.0 - distribution activated
+2012/08/31 14:45:11 - Calculator 2.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Calculator 2.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Calculator 2.0 - Got previous step from [Calculator 2] #0 --> Get Filename 
+2012/08/31 14:45:11 - Calculator 2.0 - input rel is 1:1
+2012/08/31 14:45:11 - Calculator 2.0 - Found input rowset [Get Filename .0 - Calculator 2.0]
+2012/08/31 14:45:11 - Calculator 2.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Calculator 2.0 - Found output rowset [Calculator 2.0 - MovePropFile.0]
+2012/08/31 14:45:11 - Calculator 2.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Calculator 2].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [MovePropFile] of type [ProcessFiles]
+2012/08/31 14:45:11 - MovePropFile.0 - distribution activated
+2012/08/31 14:45:11 - MovePropFile.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - MovePropFile.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - MovePropFile.0 - Got previous step from [MovePropFile] #0 --> Calculator 2
+2012/08/31 14:45:11 - MovePropFile.0 - input rel is 1:1
+2012/08/31 14:45:11 - MovePropFile.0 - Found input rowset [Calculator 2.0 - MovePropFile.0]
+2012/08/31 14:45:11 - MovePropFile.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [MovePropFile].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Add IN_PROGRESS_FIELD] of type [Constant]
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - distribution activated
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Got previous step from [Add IN_PROGRESS_FIELD] #0 --> Blocking Step
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - input rel is 1:1
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Found input rowset [Blocking Step.0 - Add IN_PROGRESS_FIELD.0]
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - output rel. is  1:1
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Found output rowset [Add IN_PROGRESS_FIELD.0 - Update.0]
+2012/08/31 14:45:11 - Add IN_PROGRESS_FIELD.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Add IN_PROGRESS_FIELD].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [Update] of type [Update]
+2012/08/31 14:45:11 - Update.0 - distribution activated
+2012/08/31 14:45:11 - Update.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - Update.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:45:11 - Update.0 - Got previous step from [Update] #0 --> Add IN_PROGRESS_FIELD
+2012/08/31 14:45:11 - Update.0 - input rel is 1:1
+2012/08/31 14:45:11 - Update.0 - Found input rowset [Add IN_PROGRESS_FIELD.0 - Update.0]
+2012/08/31 14:45:11 - Update.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [Update].0
+2012/08/31 14:45:11 - SetTransaction -  Transformation is about to allocate step [SJ-GenRows] of type [ScriptValueMod]
+2012/08/31 14:45:11 - SJ-GenRows.0 - distribution activated
+2012/08/31 14:45:11 - SJ-GenRows.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:45:11 - SJ-GenRows.0 - Step info: nrinput=0 nroutput=0
+2012/08/31 14:45:11 - SJ-GenRows.0 - Finished dispatching
+2012/08/31 14:45:11 - SetTransaction -  Transformation has allocated a new step: [SJ-GenRows].0
+2012/08/31 14:45:11 - SetTransaction - This transformation can be replayed with replay date: 2012/08/31 14:45:11
+2012/08/31 14:45:11 - SetTransaction - Initialising 18 steps...
+2012/08/31 14:45:11 - XMLFileExists?.0 - Running on slave server #0/1.
+2012/08/31 14:45:11 - Calculator.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - AC-Slash.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Get Filename .0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Blocking Step.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Log-FileName.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - PreTxn-FileNoExists.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:12 - JS-Status.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Switch / Case.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Add IN_PROGRESS_FIELD.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - SJ-GenRows.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - MovePropFile.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - CopyFile.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Split-GenRows.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Calculator 2.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - MoveFile.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - Update.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:12 - PreTxn-FileExists.0 - Running on slave server #0/1.
+2012/08/31 14:45:12 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:45:12 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:12 - PreTxn-FileNoExists.0 - Connected to database [hcit_FormBuilder] (commit=100)
+2012/08/31 14:45:12 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:12 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:12 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:45:12 - PreTxn-FileExists.0 - Connected to database [hcit_FormBuilder] (commit=100)
+2012/08/31 14:45:12 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:12 - Update.0 - Connected to database...
+2012/08/31 14:45:12 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:45:12 - SetTransaction - Step [Get Filename .0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [AC-Slash.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Calculator.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [XMLFileExists?.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Log-FileName.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [JS-Status.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Switch / Case.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [PreTxn-FileNoExists.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [MoveFile.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [PreTxn-FileExists.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [CopyFile.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Blocking Step.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Split-GenRows.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Calculator 2.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [MovePropFile.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Add IN_PROGRESS_FIELD.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [Update.0] initialized flawlessly.
+2012/08/31 14:45:12 - SetTransaction - Step [SJ-GenRows.0] initialized flawlessly.
+2012/08/31 14:45:12 - Get Filename .0 - Starting to run...
+2012/08/31 14:45:12 - Calculator.0 - Starting to run...
+2012/08/31 14:45:12 - AC-Slash.0 - Starting to run...
+2012/08/31 14:45:12 - Get Filename .0 - field [file_path] has value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1]
+2012/08/31 14:45:12 - Get Filename .0 - field [prop_file_name] has value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt]
+2012/08/31 14:45:12 - XMLFileExists?.0 - Starting to run...
+2012/08/31 14:45:12 - Get Filename .0 - field [xml_files] has value [four.xml;five.xml]
+2012/08/31 14:45:12 - Get Filename .0 - field [sub_id] has value [115]
+2012/08/31 14:45:12 - Log-FileName.0 - Starting to run...
+2012/08/31 14:45:12 - Get Filename .0 - field [un_processed_folder] has value [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/]
+2012/08/31 14:45:12 - Get Filename .0 - field [archive_folder] has value [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/]
+2012/08/31 14:45:12 - Get Filename .0 - field [short_file_name] has value [four.txt]
+2012/08/31 14:45:12 - Get Filename .0 - field [notification_email] has value [mmahishi@vertizone.com]
+2012/08/31 14:45:12 - JS-Status.0 - Starting to run...
+2012/08/31 14:45:12 - Switch / Case.0 - Starting to run...
+2012/08/31 14:45:12 - PreTxn-FileNoExists.0 - Starting to run...
+2012/08/31 14:45:12 - MoveFile.0 - Starting to run...
+2012/08/31 14:45:12 - Blocking Step.0 - Starting to run...
+2012/08/31 14:45:12 - Split-GenRows.0 - Starting to run...
+2012/08/31 14:45:12 - CopyFile.0 - Starting to run...
+2012/08/31 14:45:12 - PreTxn-FileExists.0 - Starting to run...
+2012/08/31 14:45:12 - MovePropFile.0 - Starting to run...
+2012/08/31 14:45:12 - Calculator 2.0 - Starting to run...
+2012/08/31 14:45:12 - Update.0 - Starting to run...
+2012/08/31 14:45:12 - SJ-GenRows.0 - Starting to run...
+2012/08/31 14:45:12 - Get Filename .0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:45:12 - SetTransaction - Transformation has allocated 18 threads and 16 rowsets.
+2012/08/31 14:45:12 - Log-FileName.0 - 
+2012/08/31 14:45:12 - Log-FileName.0 - ------------> Linenr 1------------------------------
+2012/08/31 14:45:12 - Log-FileName.0 - XML File ?? Exists ??
+2012/08/31 14:45:12 - Log-FileName.0 - 
+2012/08/31 14:45:12 - Log-FileName.0 - xml_file = /home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.xml
+2012/08/31 14:45:12 - Log-FileName.0 - file_exists = Y
+2012/08/31 14:45:12 - Log-FileName.0 - 
+2012/08/31 14:45:12 - Log-FileName.0 - ====================
+2012/08/31 14:45:12 - AC-Slash.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - Calculator 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - JS-Status.0 - Value #10 -  [xml_file] is used in the script.
+2012/08/31 14:45:12 - JS-Status.0 - Value #13 -  [file_exists] is used in the script.
+2012/08/31 14:45:12 - JS-Status.0 - This script is using 2 values from the input stream(s)
+2012/08/31 14:45:12 - JS-Status.0 - Optimization level set to 9.
+2012/08/31 14:45:12 - Add IN_PROGRESS_FIELD.0 - Starting to run...
+2012/08/31 14:45:12 - MovePropFile.0 - Target file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/four.txt] exists.
+2012/08/31 14:45:12 - MovePropFile.0 - Source file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt] was moved to [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/four.txt]
+2012/08/31 14:45:12 - Log-FileName.0 - 
+2012/08/31 14:45:12 - Log-FileName.0 - ------------> Linenr 2------------------------------
+2012/08/31 14:45:12 - Log-FileName.0 - XML File ?? Exists ??
+2012/08/31 14:45:12 - Log-FileName.0 - 
+2012/08/31 14:45:12 - Log-FileName.0 - xml_file = /home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/five.xml
+2012/08/31 14:45:12 - Log-FileName.0 - file_exists = N
+2012/08/31 14:45:12 - Log-FileName.0 - 
+2012/08/31 14:45:12 - Log-FileName.0 - ====================
+2012/08/31 14:45:12 - SJ-GenRows.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2012/08/31 14:45:12 - Split-GenRows.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:45:12 - MovePropFile.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - Calculator.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:12 - XMLFileExists?.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:12 - Log-FileName.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:12 - JS-Status.0 - Start Script found!
+2012/08/31 14:45:12 - JS-Status.0 - No tran_Status found. Transformation status checking not available.
+2012/08/31 14:45:12 - CopyFile.0 - Target file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/four.xml] exists.
+2012/08/31 14:45:12 - CopyFile.0 - Source file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.xml] was copied to [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/four.xml]
+2012/08/31 14:45:12 - MoveFile.0 - Source file [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.xml] was moved to [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/four.xml]
+2012/08/31 14:45:12 - PreTxn-FileExists.0 - Prepared statement : INSERT INTO fileprocess.pre_transactions (submmission_id, xml_file, status, xml_file_name) VALUES ( ?,  ?,  ?,  ?)
+2012/08/31 14:45:12 - PreTxn-FileNoExists.0 - Prepared statement : INSERT INTO fileprocess.pre_transactions (submmission_id, xml_file, status, xml_file_name) VALUES ( ?,  ?,  ?,  ?)
+2012/08/31 14:45:12 - JS-Status.0 - No end Script found!
+2012/08/31 14:45:12 - JS-Status.0 - Finished processing (I=0, O=0, R=2, W=4, U=0, E=0)
+2012/08/31 14:45:12 - Blocking Step.0 - Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2012/08/31 14:45:12 - Switch / Case.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2012/08/31 14:45:12 - Update.0 - Checking row: [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [four.xml;five.xml], [ 00000000000000000000000000000000000000000000000000000000000115], [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/], [four.txt], [mmahishi@vertizone.com], [/], [five.xml], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/five.xml], [/home/local/HCIT/oawofolu/cure_etl/data/UN_PROCESSED/five.xml], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/ARCHIVE/five.xml], [N], [9], [2], [IN_PROGRESS]
+2012/08/31 14:45:12 - Update.0 - Setting preparedStatement to [SELECT xml_file_count, notification_email, status FROM fileprocess.submissions WHERE  ( ( idx = ?  ) ) ]
+2012/08/31 14:45:12 - Update.0 - Setting update preparedStatement to [UPDATE fileprocess.submissions
+2012/08/31 14:45:12 - Update.0 - SET xml_file_count = ?
+2012/08/31 14:45:12 - Update.0 - ,   notification_email = ?
+2012/08/31 14:45:12 - Update.0 - ,   status = ?
+2012/08/31 14:45:12 - Update.0 - WHERE  ( ( idx = ?  ) ) ]
+2012/08/31 14:45:12 - CopyFile.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - Add IN_PROGRESS_FIELD.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - MoveFile.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:12 - PreTxn-FileNoExists.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:12 - PreTxn-FileExists.0 - Finished processing (I=0, O=1, R=1, W=1, U=0, E=0)
+2012/08/31 14:45:12 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:45:12 - Update.0 - Finished processing (I=1, O=0, R=1, W=1, U=1, E=0)
+2012/08/31 14:45:12 - ProcessPropertyFile - Starting entry [Success]
+2012/08/31 14:45:12 - ProcessPropertyFile - exec(11, 0, Success.0)
+2012/08/31 14:45:12 - Success - Starting job entry
+2012/08/31 14:45:12 - ProcessPropertyFile - Finished job entry [Success] (result=[true])
+2012/08/31 14:45:12 - ProcessPropertyFile - Finished job entry [SetTransaction] (result=[true])
+2012/08/31 14:45:12 - ProcessPropertyFile - Finished job entry [SetVars] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Starting entry [Success]
+2012/08/31 14:45:12 - GetFiles - exec(8, 0, Success.0)
+2012/08/31 14:45:12 - Success - Starting job entry
+2012/08/31 14:45:12 - GetFiles - Finished job entry [Success] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Finished job entry [ProcessPropertyFile] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Finished job entry [GetPropertyFiles] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Finished job entry [CheckFolder] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Finished job entry [Set FB] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Finished job entry [LoadProperties] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Finished job entry [Checks if files exist] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Finished job entry [PropsSet?] (result=[true])
+2012/08/31 14:45:12 - GetFiles - Job execution finished

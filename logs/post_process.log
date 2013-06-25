@@ -1,0 +1,564 @@
+2012/08/31 14:47:38 - Kitchen - Logging is at level : Detailed logging
+2012/08/31 14:47:38 - Kitchen - Start of run.
+2012/08/31 14:47:39 - PostProcess - Start of job execution
+2012/08/31 14:47:39 - PostProcess - exec(0, 0, START.0)
+2012/08/31 14:47:39 - START - Starting job entry
+2012/08/31 14:47:39 - PostProcess - Starting entry [LoadProperties]
+2012/08/31 14:47:39 - PostProcess - exec(1, 0, LoadProperties.0)
+2012/08/31 14:47:39 - LoadProperties - Starting job entry
+2012/08/31 14:47:39 - LoadProperties - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/PostProcess/../Common/LoadProperties.ktr]
+2012/08/31 14:47:39 - LoadProperties - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/PostProcess/../Common/LoadProperties.ktr]
+2012/08/31 14:47:39 - LoadProperties - Starting transformation...(file=${Internal.Job.Filename.Directory}/../Common/LoadProperties.ktr, name=LoadProperties, repinfo=null)
+2012/08/31 14:47:39 - LoadProperties - Transformation is pre-loaded.
+2012/08/31 14:47:39 - LoadProperties - Dispatching started for transformation [LoadProperties]
+2012/08/31 14:47:39 - LoadProperties - Nr of arguments detected:0 
+2012/08/31 14:47:39 - LoadProperties - This is not a replay transformation
+2012/08/31 14:47:39 - LoadProperties - I found 2 different steps to launch.
+2012/08/31 14:47:39 - LoadProperties - Allocating rowsets...
+2012/08/31 14:47:39 - LoadProperties -  Allocating rowsets for step 0 --> Property Input
+2012/08/31 14:47:39 - LoadProperties -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - LoadProperties - Transformation allocated new rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:47:39 - LoadProperties -  Allocated 1 rowsets for step 0 --> Property Input  
+2012/08/31 14:47:39 - LoadProperties -  Allocating rowsets for step 1 --> Set Variables
+2012/08/31 14:47:39 - LoadProperties -  Allocated 1 rowsets for step 1 --> Set Variables  
+2012/08/31 14:47:39 - LoadProperties - Allocating Steps & StepData...
+2012/08/31 14:47:39 - LoadProperties -  Transformation is about to allocate step [Property Input] of type [PropertyInput]
+2012/08/31 14:47:39 - Property Input.0 - distribution activated
+2012/08/31 14:47:39 - Property Input.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Property Input.0 - Step info: nrinput=0 nroutput=1
+2012/08/31 14:47:39 - Property Input.0 - output rel. is  1:1
+2012/08/31 14:47:39 - Property Input.0 - Found output rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:47:39 - Property Input.0 - Finished dispatching
+2012/08/31 14:47:39 - LoadProperties -  Transformation has allocated a new step: [Property Input].0
+2012/08/31 14:47:39 - LoadProperties -  Transformation is about to allocate step [Set Variables] of type [ScriptValueMod]
+2012/08/31 14:47:39 - Set Variables.0 - distribution activated
+2012/08/31 14:47:39 - Set Variables.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Set Variables.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:47:39 - Set Variables.0 - Got previous step from [Set Variables] #0 --> Property Input
+2012/08/31 14:47:39 - Set Variables.0 - input rel is 1:1
+2012/08/31 14:47:39 - Set Variables.0 - Found input rowset [Property Input.0 - Set Variables.0]
+2012/08/31 14:47:39 - Set Variables.0 - Finished dispatching
+2012/08/31 14:47:39 - LoadProperties -  Transformation has allocated a new step: [Set Variables].0
+2012/08/31 14:47:39 - LoadProperties - This transformation can be replayed with replay date: 2012/08/31 14:47:39
+2012/08/31 14:47:39 - LoadProperties - Initialising 2 steps...
+2012/08/31 14:47:39 - Property Input.0 - Running on slave server #0/1.
+2012/08/31 14:47:39 - Set Variables.0 - Running on slave server #0/1.
+2012/08/31 14:47:39 - LoadProperties - Step [Property Input.0] initialized flawlessly.
+2012/08/31 14:47:39 - LoadProperties - Step [Set Variables.0] initialized flawlessly.
+2012/08/31 14:47:39 - Property Input.0 - Starting to run...
+2012/08/31 14:47:39 - LoadProperties - Transformation has allocated 2 threads and 1 rowsets.
+2012/08/31 14:47:39 - Set Variables.0 - Starting to run...
+2012/08/31 14:47:39 - Property Input.0 - Opening file: file:///home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties
+2012/08/31 14:47:39 - Property Input.0 - Finished opening file file:///home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties
+2012/08/31 14:47:39 - Property Input.0 - We found 33 key(s) in file [/home/local/HCIT/oawofolu/cure_etl/conf/PROCESS_XML.properties]
+2012/08/31 14:47:39 - Set Variables.0 - Value #0 -  [key] is used in the script.
+2012/08/31 14:47:39 - Set Variables.0 - Value #1 -  [value] is used in the script.
+2012/08/31 14:47:39 - Set Variables.0 - This script is using 2 values from the input stream(s)
+2012/08/31 14:47:39 - Property Input.0 - Finished processing
+2012/08/31 14:47:39 - Property Input.0 - Finished processing (I=33, O=0, R=0, W=33, U=0, E=0)
+2012/08/31 14:47:39 - Set Variables.0 - Optimization level not specified.  Using default of 9.
+2012/08/31 14:47:39 - Set Variables.0 - No starting Script found!
+2012/08/31 14:47:39 - Set Variables.0 - No tran_Status found. Transformation status checking not available.
+2012/08/31 14:47:39 - Set Variables.0 - No end Script found!
+2012/08/31 14:47:39 - Set Variables.0 - Finished processing (I=0, O=0, R=33, W=33, U=0, E=0)
+2012/08/31 14:47:39 - PostProcess - Starting entry [Get Notification-Ready Submissions]
+2012/08/31 14:47:39 - PostProcess - exec(2, 0, Get Notification-Ready Submissions.0)
+2012/08/31 14:47:39 - Get Notification-Ready Submissions - Starting job entry
+2012/08/31 14:47:39 - Get Notification-Ready Submissions - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/PostProcess/GetNotificationReadySubmissions.ktr]
+2012/08/31 14:47:39 - Get Notification-Ready Submissions - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/PostProcess/GetNotificationReadySubmissions.ktr]
+2012/08/31 14:47:39 - Get Notification-Ready Submissions - Starting transformation...(file=${Internal.Job.Filename.Directory}/GetNotificationReadySubmissions.ktr, name=Get Notification-Ready Submissions, repinfo=null)
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation is pre-loaded.
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Dispatching started for transformation [GetNotificationReadySubmissions]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Nr of arguments detected:0 
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - This is not a replay transformation
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - I found 9 different steps to launch.
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Allocating rowsets...
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 0 --> Get completed submissions
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [Get completed submissions.0 - Set submission status.0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 1 rowsets for step 0 --> Get completed submissions  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 1 --> Set submission status
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [Set submission status.0 - Sort rows.0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 2 rowsets for step 1 --> Set submission status  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 2 --> If all transactions are completed...
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [If all transactions are completed....0 - Select values.0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [If all transactions are completed....0 - Add IN_PROGRESS field.0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 4 rowsets for step 2 --> If all transactions are completed...  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 3 --> Select values
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [Select values.0 - Copy rows to result.0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 5 rowsets for step 3 --> Select values  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 4 --> Add IN_PROGRESS field
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [Add IN_PROGRESS field.0 - Reset submission status.0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 6 rowsets for step 4 --> Add IN_PROGRESS field  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 5 --> Reset submission status
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 6 rowsets for step 5 --> Reset submission status  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 6 --> Sort rows
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [Sort rows.0 - GetCompletedTransactions.0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 7 rowsets for step 6 --> Sort rows  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 7 --> GetCompletedTransactions
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Transformation allocated new rowset [GetCompletedTransactions.0 - If all transactions are completed....0]
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 8 rowsets for step 7 --> GetCompletedTransactions  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocating rowsets for step 8 --> Copy rows to result
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Allocated 8 rowsets for step 8 --> Copy rows to result  
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Allocating Steps & StepData...
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [Get completed submissions] of type [TableInput]
+2012/08/31 14:47:39 - Get completed submissions.0 - distribution activated
+2012/08/31 14:47:39 - Get completed submissions.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Get completed submissions.0 - Step info: nrinput=0 nroutput=1
+2012/08/31 14:47:39 - Get completed submissions.0 - output rel. is  1:1
+2012/08/31 14:47:39 - Get completed submissions.0 - Found output rowset [Get completed submissions.0 - Set submission status.0]
+2012/08/31 14:47:39 - Get completed submissions.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [Get completed submissions].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [Set submission status] of type [Update]
+2012/08/31 14:47:39 - Set submission status.0 - distribution activated
+2012/08/31 14:47:39 - Set submission status.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Set submission status.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:39 - Set submission status.0 - Got previous step from [Set submission status] #0 --> Get completed submissions
+2012/08/31 14:47:39 - Set submission status.0 - input rel is 1:1
+2012/08/31 14:47:39 - Set submission status.0 - Found input rowset [Get completed submissions.0 - Set submission status.0]
+2012/08/31 14:47:39 - Set submission status.0 - output rel. is  1:1
+2012/08/31 14:47:39 - Set submission status.0 - Found output rowset [Set submission status.0 - Sort rows.0]
+2012/08/31 14:47:39 - Set submission status.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [Set submission status].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [If all transactions are completed...] of type [FilterRows]
+2012/08/31 14:47:39 - If all transactions are completed....0 - distribution activated
+2012/08/31 14:47:39 - If all transactions are completed....0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - If all transactions are completed....0 - Step info: nrinput=1 nroutput=2
+2012/08/31 14:47:39 - If all transactions are completed....0 - Got previous step from [If all transactions are completed...] #0 --> GetCompletedTransactions
+2012/08/31 14:47:39 - If all transactions are completed....0 - input rel is 1:1
+2012/08/31 14:47:39 - If all transactions are completed....0 - Found input rowset [GetCompletedTransactions.0 - If all transactions are completed....0]
+2012/08/31 14:47:39 - If all transactions are completed....0 - output rel. is  1:1
+2012/08/31 14:47:39 - If all transactions are completed....0 - Found output rowset [If all transactions are completed....0 - Select values.0]
+2012/08/31 14:47:39 - If all transactions are completed....0 - output rel. is  1:1
+2012/08/31 14:47:39 - If all transactions are completed....0 - Found output rowset [If all transactions are completed....0 - Add IN_PROGRESS field.0]
+2012/08/31 14:47:39 - If all transactions are completed....0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [If all transactions are completed...].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [Select values] of type [SelectValues]
+2012/08/31 14:47:39 - Select values.0 - distribution activated
+2012/08/31 14:47:39 - Select values.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Select values.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:39 - Select values.0 - Got previous step from [Select values] #0 --> If all transactions are completed...
+2012/08/31 14:47:39 - Select values.0 - input rel is 1:1
+2012/08/31 14:47:39 - Select values.0 - Found input rowset [If all transactions are completed....0 - Select values.0]
+2012/08/31 14:47:39 - Select values.0 - output rel. is  1:1
+2012/08/31 14:47:39 - Select values.0 - Found output rowset [Select values.0 - Copy rows to result.0]
+2012/08/31 14:47:39 - Select values.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [Select values].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [Add IN_PROGRESS field] of type [Constant]
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - distribution activated
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - Got previous step from [Add IN_PROGRESS field] #0 --> If all transactions are completed...
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - input rel is 1:1
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - Found input rowset [If all transactions are completed....0 - Add IN_PROGRESS field.0]
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - output rel. is  1:1
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - Found output rowset [Add IN_PROGRESS field.0 - Reset submission status.0]
+2012/08/31 14:47:39 - Add IN_PROGRESS field.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [Add IN_PROGRESS field].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [Reset submission status] of type [Update]
+2012/08/31 14:47:39 - Reset submission status.0 - distribution activated
+2012/08/31 14:47:39 - Reset submission status.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Reset submission status.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:47:39 - Reset submission status.0 - Got previous step from [Reset submission status] #0 --> Add IN_PROGRESS field
+2012/08/31 14:47:39 - Reset submission status.0 - input rel is 1:1
+2012/08/31 14:47:39 - Reset submission status.0 - Found input rowset [Add IN_PROGRESS field.0 - Reset submission status.0]
+2012/08/31 14:47:39 - Reset submission status.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [Reset submission status].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [Sort rows] of type [SortRows]
+2012/08/31 14:47:39 - Sort rows.0 - distribution activated
+2012/08/31 14:47:39 - Sort rows.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Sort rows.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:39 - Sort rows.0 - Got previous step from [Sort rows] #0 --> Set submission status
+2012/08/31 14:47:39 - Sort rows.0 - input rel is 1:1
+2012/08/31 14:47:39 - Sort rows.0 - Found input rowset [Set submission status.0 - Sort rows.0]
+2012/08/31 14:47:39 - Sort rows.0 - output rel. is  1:1
+2012/08/31 14:47:39 - Sort rows.0 - Found output rowset [Sort rows.0 - GetCompletedTransactions.0]
+2012/08/31 14:47:39 - Sort rows.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [Sort rows].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [GetCompletedTransactions] of type [GroupBy]
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - distribution activated
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - Got previous step from [GetCompletedTransactions] #0 --> Sort rows
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - input rel is 1:1
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - Found input rowset [Sort rows.0 - GetCompletedTransactions.0]
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - output rel. is  1:1
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - Found output rowset [GetCompletedTransactions.0 - If all transactions are completed....0]
+2012/08/31 14:47:39 - GetCompletedTransactions.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [GetCompletedTransactions].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation is about to allocate step [Copy rows to result] of type [RowsToResult]
+2012/08/31 14:47:39 - Copy rows to result.0 - distribution activated
+2012/08/31 14:47:39 - Copy rows to result.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:39 - Copy rows to result.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:47:39 - Copy rows to result.0 - Got previous step from [Copy rows to result] #0 --> Select values
+2012/08/31 14:47:39 - Copy rows to result.0 - input rel is 1:1
+2012/08/31 14:47:39 - Copy rows to result.0 - Found input rowset [Select values.0 - Copy rows to result.0]
+2012/08/31 14:47:39 - Copy rows to result.0 - Finished dispatching
+2012/08/31 14:47:39 - GetNotificationReadySubmissions -  Transformation has allocated a new step: [Copy rows to result].0
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - This transformation can be replayed with replay date: 2012/08/31 14:47:39
+2012/08/31 14:47:39 - GetNotificationReadySubmissions - Initialising 9 steps...
+2012/08/31 14:47:39 - Copy rows to result.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Get completed submissions.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - GetCompletedTransactions.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Sort rows.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Reset submission status.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Add IN_PROGRESS field.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Select values.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - If all transactions are completed....0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Set submission status.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - Set submission status.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:47:40 - Reset submission status.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:47:40 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:47:40 - Get completed submissions.0 - Connected to database...
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [Get completed submissions.0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [Set submission status.0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [If all transactions are completed....0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [Select values.0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [Add IN_PROGRESS field.0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [Reset submission status.0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [Sort rows.0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [GetCompletedTransactions.0] initialized flawlessly.
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Step [Copy rows to result.0] initialized flawlessly.
+2012/08/31 14:47:40 - Set submission status.0 - Starting to run...
+2012/08/31 14:47:40 - If all transactions are completed....0 - Starting to run...
+2012/08/31 14:47:40 - Get completed submissions.0 - Starting to run...
+2012/08/31 14:47:40 - Get completed submissions.0 - SQL query : SELECT 
+2012/08/31 14:47:40 - Get completed submissions.0 -   sub.idx
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.client_id
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.client_name
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.property_file_name
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.xml_file_count
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.start_ts
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.end_ts
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.status
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.description
+2012/08/31 14:47:40 - Get completed submissions.0 - , sub.notification_email
+2012/08/31 14:47:40 - Get completed submissions.0 - ,case when( tran.status is null or (tran.status is not null and (tran.status >= 80 or (tran.status+1)%10=0))) and
+2012/08/31 14:47:40 - Get completed submissions.0 -           (pretran.status = 30 or (pretran.status+1)%10=0) then 'PROCESSED' else 'IN_PROGRESS' end as "submission_new_status"
+2012/08/31 14:47:40 - Get completed submissions.0 - , count(pretran.idx)
+2012/08/31 14:47:40 - Get completed submissions.0 - FROM fileprocess.submissions sub, fileprocess.pre_transactions pretran
+2012/08/31 14:47:40 - Get completed submissions.0 - left join fileprocess.transactions tran on pretran.idx = tran.ptxn_id
+2012/08/31 14:47:40 - Get completed submissions.0 - where pretran.submmission_id = sub.idx
+2012/08/31 14:47:40 - Get completed submissions.0 - group by sub.idx, sub.client_id, sub.client_name, sub.property_file_name, sub.xml_file_count, sub.start_ts, sub.end_ts, sub.status, sub.description, sub.notification_email, 
+2012/08/31 14:47:40 - Get completed submissions.0 - tran.idx, tran.status, pretran.status
+2012/08/31 14:47:40 - Select values.0 - Starting to run...
+2012/08/31 14:47:40 - Add IN_PROGRESS field.0 - Starting to run...
+2012/08/31 14:47:40 - Copy rows to result.0 - Starting to run...
+2012/08/31 14:47:40 - GetNotificationReadySubmissions - Transformation has allocated 9 threads and 8 rowsets.
+2012/08/31 14:47:40 - GetCompletedTransactions.0 - Starting to run...
+2012/08/31 14:47:40 - Sort rows.0 - Starting to run...
+2012/08/31 14:47:40 - Reset submission status.0 - Starting to run...
+2012/08/31 14:47:40 - Set submission status.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [PROCESSED], [1]
+2012/08/31 14:47:40 - Get completed submissions.0 - Finished reading query, closing connection.
+2012/08/31 14:47:40 - Set submission status.0 - Setting preparedStatement to [SELECT status FROM fileprocess.submissions WHERE  ( ( idx = ?  ) ) ]
+2012/08/31 14:47:40 - Set submission status.0 - Setting update preparedStatement to [UPDATE fileprocess.submissions
+2012/08/31 14:47:40 - Set submission status.0 - SET status = ?
+2012/08/31 14:47:40 - Set submission status.0 - WHERE  ( ( idx = ?  ) ) ]
+2012/08/31 14:47:40 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:47:40 - Get completed submissions.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2012/08/31 14:47:40 - Sort rows.0 - Starting quickSort algorithm...
+2012/08/31 14:47:40 - Sort rows.0 - The number of binary string to data type conversions done in this sort block is 0
+2012/08/31 14:47:40 - Sort rows.0 - QuickSort algorithm has finished.
+2012/08/31 14:47:40 - Sort rows.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2012/08/31 14:47:40 - GetCompletedTransactions.0 - Finished processing (I=0, O=0, R=6, W=3, U=0, E=0)
+2012/08/31 14:47:40 - If all transactions are completed....0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:47:40 - Add IN_PROGRESS field.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2012/08/31 14:47:40 - Select values.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:47:40 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:47:40 - Reset submission status.0 - Finished processing (I=0, O=0, R=0, W=0, U=0, E=0)
+2012/08/31 14:47:40 - Copy rows to result.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:47:40 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:47:40 - Set submission status.0 - Finished processing (I=6, O=0, R=6, W=6, U=2, E=0)
+2012/08/31 14:47:40 - PostProcess - Starting entry [PostProcessDBUpdates]
+2012/08/31 14:47:40 - PostProcess - exec(3, 0, PostProcessDBUpdates.0)
+2012/08/31 14:47:40 - PostProcessDBUpdates - Starting job entry
+2012/08/31 14:47:40 - PostProcessDBUpdates - Opening transformation: [file:///home/local/HCIT/oawofolu/cure_etl/kettle/PostProcess/PostProcessDBUpdates.ktr]
+2012/08/31 14:47:40 - PostProcessDBUpdates - Loading transformation from XML file [file:///home/local/HCIT/oawofolu/cure_etl/kettle/PostProcess/PostProcessDBUpdates.ktr]
+2012/08/31 14:47:40 - PostProcessDBUpdates - Starting transformation...(file=${Internal.Job.Filename.Directory}/PostProcessDBUpdates.ktr, name=PostProcessDBUpdates, repinfo=null)
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation is pre-loaded.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Dispatching started for transformation [PostProcessDBUpdates]
+2012/08/31 14:47:40 - PostProcessDBUpdates - Nr of arguments detected:0 
+2012/08/31 14:47:40 - PostProcessDBUpdates - This is not a replay transformation
+2012/08/31 14:47:40 - PostProcessDBUpdates - I found 11 different steps to launch.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Allocating rowsets...
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 0 --> Get rows from result
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Get rows from result.0 - Add IN_PROGRESS status field.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 1 rowsets for step 0 --> Get rows from result  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 1 --> Add IN_PROGRESS status field
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Add IN_PROGRESS status field.0 - Add pre-transaction ID.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 2 rowsets for step 1 --> Add IN_PROGRESS status field  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 2 --> Add moduleId
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Add moduleId.0 - Update sharing_group_form.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 3 rowsets for step 2 --> Add moduleId  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 3 --> Update sharing_group_form
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Update sharing_group_form.0 - Update sharing_group_module.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 4 rowsets for step 3 --> Update sharing_group_form  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 4 --> Update sharing_group_module
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Update sharing_group_module.0 - Update partial_complete.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 5 rowsets for step 4 --> Update sharing_group_module  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 5 --> Update transactions status 2
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Update transactions status 2.0 - Copy rows to result.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 6 rowsets for step 5 --> Update transactions status 2  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 6 --> Copy rows to result
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 6 rowsets for step 6 --> Copy rows to result  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 7 --> Update partial_complete
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Update partial_complete.0 - Update transactions status 2.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 7 rowsets for step 7 --> Update partial_complete  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 8 --> Update transaction status
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Update transaction status.0 - Add formId, groupId.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 8 rowsets for step 8 --> Update transaction status  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 9 --> Add formId, groupId
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Add formId, groupId.0 - Add moduleId.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 9 rowsets for step 9 --> Add formId, groupId  
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocating rowsets for step 10 --> Add pre-transaction ID
+2012/08/31 14:47:40 - PostProcessDBUpdates -   prevcopies = 1, nextcopies=1
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation allocated new rowset [Add pre-transaction ID.0 - Update transaction status.0]
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Allocated 10 rowsets for step 10 --> Add pre-transaction ID  
+2012/08/31 14:47:40 - PostProcessDBUpdates - Allocating Steps & StepData...
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Get rows from result] of type [RowsFromResult]
+2012/08/31 14:47:40 - Get rows from result.0 - distribution activated
+2012/08/31 14:47:40 - Get rows from result.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Get rows from result.0 - Step info: nrinput=0 nroutput=1
+2012/08/31 14:47:40 - Get rows from result.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Get rows from result.0 - Found output rowset [Get rows from result.0 - Add IN_PROGRESS status field.0]
+2012/08/31 14:47:40 - Get rows from result.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Get rows from result].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Add IN_PROGRESS status field] of type [Constant]
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - distribution activated
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Got previous step from [Add IN_PROGRESS status field] #0 --> Get rows from result
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - input rel is 1:1
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Found input rowset [Get rows from result.0 - Add IN_PROGRESS status field.0]
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Found output rowset [Add IN_PROGRESS status field.0 - Add pre-transaction ID.0]
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Add IN_PROGRESS status field].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Add moduleId] of type [DBLookup]
+2012/08/31 14:47:40 - Add moduleId.0 - distribution activated
+2012/08/31 14:47:40 - Add moduleId.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Add moduleId.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Add moduleId.0 - Got previous step from [Add moduleId] #0 --> Add formId, groupId
+2012/08/31 14:47:40 - Add moduleId.0 - input rel is 1:1
+2012/08/31 14:47:40 - Add moduleId.0 - Found input rowset [Add formId, groupId.0 - Add moduleId.0]
+2012/08/31 14:47:40 - Add moduleId.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Add moduleId.0 - Found output rowset [Add moduleId.0 - Update sharing_group_form.0]
+2012/08/31 14:47:40 - Add moduleId.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Add moduleId].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Update sharing_group_form] of type [Update]
+2012/08/31 14:47:40 - Update sharing_group_form.0 - distribution activated
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Got previous step from [Update sharing_group_form] #0 --> Add moduleId
+2012/08/31 14:47:40 - Update sharing_group_form.0 - input rel is 1:1
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Found input rowset [Add moduleId.0 - Update sharing_group_form.0]
+2012/08/31 14:47:40 - Update sharing_group_form.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Found output rowset [Update sharing_group_form.0 - Update sharing_group_module.0]
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Update sharing_group_form].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Update sharing_group_module] of type [Update]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - distribution activated
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Got previous step from [Update sharing_group_module] #0 --> Update sharing_group_form
+2012/08/31 14:47:40 - Update sharing_group_module.0 - input rel is 1:1
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Found input rowset [Update sharing_group_form.0 - Update sharing_group_module.0]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Found output rowset [Update sharing_group_module.0 - Update partial_complete.0]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Update sharing_group_module].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Update transactions status 2] of type [Update]
+2012/08/31 14:47:40 - Update transactions status 2.0 - distribution activated
+2012/08/31 14:47:40 - Update transactions status 2.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Update transactions status 2.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Update transactions status 2.0 - Got previous step from [Update transactions status 2] #0 --> Update partial_complete
+2012/08/31 14:47:40 - Update transactions status 2.0 - input rel is 1:1
+2012/08/31 14:47:40 - Update transactions status 2.0 - Found input rowset [Update partial_complete.0 - Update transactions status 2.0]
+2012/08/31 14:47:40 - Update transactions status 2.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Update transactions status 2.0 - Found output rowset [Update transactions status 2.0 - Copy rows to result.0]
+2012/08/31 14:47:40 - Update transactions status 2.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Update transactions status 2].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Copy rows to result] of type [RowsToResult]
+2012/08/31 14:47:40 - Copy rows to result.0 - distribution activated
+2012/08/31 14:47:40 - Copy rows to result.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Copy rows to result.0 - Step info: nrinput=1 nroutput=0
+2012/08/31 14:47:40 - Copy rows to result.0 - Got previous step from [Copy rows to result] #0 --> Update transactions status 2
+2012/08/31 14:47:40 - Copy rows to result.0 - input rel is 1:1
+2012/08/31 14:47:40 - Copy rows to result.0 - Found input rowset [Update transactions status 2.0 - Copy rows to result.0]
+2012/08/31 14:47:40 - Copy rows to result.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Copy rows to result].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Update partial_complete] of type [ExecSQL]
+2012/08/31 14:47:40 - Update partial_complete.0 - distribution activated
+2012/08/31 14:47:40 - Update partial_complete.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Update partial_complete.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Update partial_complete.0 - Got previous step from [Update partial_complete] #0 --> Update sharing_group_module
+2012/08/31 14:47:40 - Update partial_complete.0 - input rel is 1:1
+2012/08/31 14:47:40 - Update partial_complete.0 - Found input rowset [Update sharing_group_module.0 - Update partial_complete.0]
+2012/08/31 14:47:40 - Update partial_complete.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Update partial_complete.0 - Found output rowset [Update partial_complete.0 - Update transactions status 2.0]
+2012/08/31 14:47:40 - Update partial_complete.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Update partial_complete].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Update transaction status] of type [Update]
+2012/08/31 14:47:40 - Update transaction status.0 - distribution activated
+2012/08/31 14:47:40 - Update transaction status.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Update transaction status.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Update transaction status.0 - Got previous step from [Update transaction status] #0 --> Add pre-transaction ID
+2012/08/31 14:47:40 - Update transaction status.0 - input rel is 1:1
+2012/08/31 14:47:40 - Update transaction status.0 - Found input rowset [Add pre-transaction ID.0 - Update transaction status.0]
+2012/08/31 14:47:40 - Update transaction status.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Update transaction status.0 - Found output rowset [Update transaction status.0 - Add formId, groupId.0]
+2012/08/31 14:47:40 - Update transaction status.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Update transaction status].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Add formId, groupId] of type [DBJoin]
+2012/08/31 14:47:40 - Add formId, groupId.0 - distribution activated
+2012/08/31 14:47:40 - Add formId, groupId.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Add formId, groupId.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Add formId, groupId.0 - Got previous step from [Add formId, groupId] #0 --> Update transaction status
+2012/08/31 14:47:40 - Add formId, groupId.0 - input rel is 1:1
+2012/08/31 14:47:40 - Add formId, groupId.0 - Found input rowset [Update transaction status.0 - Add formId, groupId.0]
+2012/08/31 14:47:40 - Add formId, groupId.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Add formId, groupId.0 - Found output rowset [Add formId, groupId.0 - Add moduleId.0]
+2012/08/31 14:47:40 - Add formId, groupId.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Add formId, groupId].0
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation is about to allocate step [Add pre-transaction ID] of type [DBJoin]
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - distribution activated
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Starting allocation of buffers & new threads...
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Step info: nrinput=1 nroutput=1
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Got previous step from [Add pre-transaction ID] #0 --> Add IN_PROGRESS status field
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - input rel is 1:1
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Found input rowset [Add IN_PROGRESS status field.0 - Add pre-transaction ID.0]
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - output rel. is  1:1
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Found output rowset [Add pre-transaction ID.0 - Update transaction status.0]
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Finished dispatching
+2012/08/31 14:47:40 - PostProcessDBUpdates -  Transformation has allocated a new step: [Add pre-transaction ID].0
+2012/08/31 14:47:40 - PostProcessDBUpdates - This transformation can be replayed with replay date: 2012/08/31 14:47:40
+2012/08/31 14:47:40 - PostProcessDBUpdates - Initialising 11 steps...
+2012/08/31 14:47:40 - Get rows from result.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Add moduleId.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Update transactions status 2.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Copy rows to result.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Update partial_complete.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Update transaction status.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Add formId, groupId.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Running on slave server #0/1.
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_cacure - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_cacure - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - New database connection defined
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - Update transactions status 2.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - Update partial_complete.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:47:40 - Add moduleId.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_cacure - Connected to database.
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_cacure - Auto commit off
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - Update transaction status.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_FormBuilder - Auto commit off
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - hcit_FormBuilder - Connected to database.
+2012/08/31 14:47:40 - Add formId, groupId.0 - Connected to database...
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_cacure - Connected to database.
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Connected to database...
+2012/08/31 14:47:40 - hcit_cacure - Auto commit off
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Get rows from result.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Add IN_PROGRESS status field.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Add moduleId.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Update sharing_group_form.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Update sharing_group_module.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Update transactions status 2.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Copy rows to result.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Update partial_complete.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Update transaction status.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Add formId, groupId.0] initialized flawlessly.
+2012/08/31 14:47:40 - PostProcessDBUpdates - Step [Add pre-transaction ID.0] initialized flawlessly.
+2012/08/31 14:47:40 - Get rows from result.0 - Starting to run...
+2012/08/31 14:47:40 - Add moduleId.0 - Starting to run...
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Starting to run...
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Starting to run...
+2012/08/31 14:47:40 - PostProcessDBUpdates - Transformation has allocated 11 threads and 10 rowsets.
+2012/08/31 14:47:40 - Add formId, groupId.0 - Starting to run...
+2012/08/31 14:47:40 - Update partial_complete.0 - Starting to run...
+2012/08/31 14:47:40 - Copy rows to result.0 - Starting to run...
+2012/08/31 14:47:40 - Update transactions status 2.0 - Starting to run...
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Starting to run...
+2012/08/31 14:47:40 - Get rows from result.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Starting to run...
+2012/08/31 14:47:40 - Update transaction status.0 - Starting to run...
+2012/08/31 14:47:40 - Add IN_PROGRESS status field.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [IN_PROGRESS], [90], [89], [PROCESSED]
+2012/08/31 14:47:40 - Update transaction status.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [IN_PROGRESS], [90], [89], [PROCESSED], [310]
+2012/08/31 14:47:40 - Update transaction status.0 - Setting preparedStatement to [SELECT status FROM fileprocess.transactions WHERE  ( ( ptxn_id = ?  ) ) ]
+2012/08/31 14:47:40 - Update transaction status.0 - Setting update preparedStatement to [UPDATE fileprocess.transactions
+2012/08/31 14:47:40 - Update transaction status.0 - SET status = ?
+2012/08/31 14:47:40 - Update transaction status.0 - WHERE  ( ( ptxn_id = ?  ) ) ]
+2012/08/31 14:47:40 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:47:40 - Add pre-transaction ID.0 - Finished processing (I=3, O=0, R=1, W=2, U=0, E=0)
+2012/08/31 14:47:40 - Update transaction status.0 - WARNING: key could not be found for update: [310]
+2012/08/31 14:47:40 - Add formId, groupId.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [IN_PROGRESS], [90], [89], [PROCESSED], [310]
+2012/08/31 14:47:40 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:47:40 - Update transaction status.0 - Finished processing (I=2, O=0, R=2, W=2, U=1, E=0)
+2012/08/31 14:47:40 - hcit_FormBuilder - Setting preparedStatement to [SELECT module_id FROM form WHERE uuid = ? ]
+2012/08/31 14:47:40 - Add moduleId.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [IN_PROGRESS], [90], [89], [PROCESSED], [310], [null], [null]
+2012/08/31 14:47:40 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:47:40 - Add formId, groupId.0 - Finished processing (I=4, O=0, R=2, W=3, U=0, E=0)
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [IN_PROGRESS], [90], [89], [PROCESSED], [310], [null], [null], [null]
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Setting preparedStatement to [SELECT status FROM cacure.sharing_group_form WHERE  ( ( form_id = ?  ) )  AND  ( ( sharing_group_id = ?  ) ) ]
+2012/08/31 14:47:40 - Update sharing_group_form.0 - Setting update preparedStatement to [UPDATE cacure.sharing_group_form
+2012/08/31 14:47:40 - Update sharing_group_form.0 - SET status = ?
+2012/08/31 14:47:40 - Update sharing_group_form.0 - WHERE  ( ( form_id = ?  ) ) AND    ( ( sharing_group_id = ?  ) ) ]
+2012/08/31 14:47:40 - Update sharing_group_form.0 - WARNING: key could not be found for update: [null], [null]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [IN_PROGRESS], [90], [89], [PROCESSED], [310], [null], [null], [null]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Setting preparedStatement to [SELECT status FROM cacure.sharing_group_module WHERE  ( ( module_id = ?  ) )  AND  ( ( sharing_group_id = ?  ) ) ]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Setting update preparedStatement to [UPDATE cacure.sharing_group_module
+2012/08/31 14:47:40 - Update sharing_group_module.0 - SET status = ?
+2012/08/31 14:47:40 - Update sharing_group_module.0 - WHERE  ( ( module_id = ?  ) ) AND    ( ( sharing_group_id = ?  ) ) ]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - WARNING: key could not be found for update: [null], [null]
+2012/08/31 14:47:40 - Update transactions status 2.0 - Checking row: [115], [1], [client1], [/home/local/HCIT/oawofolu/cure_etl/data/INPUT/CLIENT1/four.txt], [2], [2012/08/31 14:45:11.728], [2012/08/31 14:45:11.728], [IN_PROGRESS], [No Description], [mmahishi@vertizone.com], [IN_PROGRESS], [90], [89], [PROCESSED], [310], [null], [null], [null]
+2012/08/31 14:47:40 - Update transactions status 2.0 - Setting preparedStatement to [SELECT status FROM fileprocess.transactions WHERE  ( ( ptxn_id = ?  ) ) ]
+2012/08/31 14:47:40 - Update transactions status 2.0 - Setting update preparedStatement to [UPDATE fileprocess.transactions
+2012/08/31 14:47:40 - Update transactions status 2.0 - SET status = ?
+2012/08/31 14:47:40 - Update transactions status 2.0 - WHERE  ( ( ptxn_id = ?  ) ) ]
+2012/08/31 14:47:40 - Update transactions status 2.0 - WARNING: key could not be found for update: [310]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - WARNING: key could not be found for update: [1840], [8d0bf167-77d0-46c5-9edc-7ae1ae3fb954]
+2012/08/31 14:47:40 - Update sharing_group_module.0 - WARNING: key could not be found for update: [1840], [8d0bf167-77d0-46c5-9edc-7ae1ae3fb954]
+2012/08/31 14:47:40 - hcit_FormBuilder - Connection to database closed!
+2012/08/31 14:47:40 - Add moduleId.0 - Finished processing (I=2, O=0, R=3, W=3, U=0, E=0)
+2012/08/31 14:47:40 - hcit_cacure - Connection to database closed!
+2012/08/31 14:47:40 - Update sharing_group_module.0 - Finished processing (I=3, O=0, R=3, W=3, U=0, E=0)
