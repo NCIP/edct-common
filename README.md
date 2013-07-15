@@ -13,4 +13,4 @@ You will find more details about EDCT Common in the following links:
  * [Documentation](https://wiki.nci.nih.gov/display/eDCT/Enterprise+Data+Collection+Tool)
  
  
-Please join us in further developing and improving EDCT Common.
+Please join us in further developing and improving eDCT Common project.
