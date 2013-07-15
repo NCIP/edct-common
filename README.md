@@ -1,7 +1,7 @@
 Welcome to the EDCT Common Project!
 =========================================
 
-EDCT Common contains the common code used by the EDCT tools. It is developed in Java and requires Apache Ant for building.
+eDCT Common project contains the common code used by the EDCT tools. It is developed in Java and requires Apache Ant for building.
 
 EDCT Common is distributed under the BSD 3-Clause License. Please see the NOTICE and LICENSE files for details.
 
