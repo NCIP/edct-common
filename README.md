@@ -11,7 +11,6 @@ You will find more details about eDCT Common in the following links:
 
  * [Code Repository](https://github.com/NCIP/edct-common)
  * [Issue Tracker](https://tracker.nci.nih.gov/browse/EDCT)
- * [Documentation](https://wiki.nci.nih.gov/x/KgawB)
  
  
 Please join us in further developing and improving eDCT Common project.
