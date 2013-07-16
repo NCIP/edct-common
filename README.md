@@ -1,4 +1,4 @@
-Welcome to the EDCT Common Project!
+Welcome to the eDCT Common Project!
 =========================================
 
 eDCT Common project contains the common code used by [eDCT Collector](https://github.com/NCIP/edct-collector),
